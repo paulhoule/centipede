@@ -26,8 +26,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="centipede" target="1.6" />
-      <module name="centipede (1)" target="1.6" />
+      <module name="centipede" target="1.7" />
+      <module name="centipede (1)" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

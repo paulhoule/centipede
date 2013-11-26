@@ -12,5 +12,8 @@
     <context:exclude-filter type="assignable"
       expression="com.ontology2.centipede.shell.CentipedeShell" />
   </context:component-scan>
+
+  <bean id="conversionService"
+        class="org.springframework.context.support.ConversionServiceFactoryBean"/>
 </beans>
  

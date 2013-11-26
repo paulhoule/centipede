@@ -3,10 +3,6 @@ package com.ontology2.centipede.shell;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-//
-// This part here isn't quite right.  We wither need to put the     
-//
-
 public abstract class CommandLineApplication {
     private static Log logger = LogFactory.getLog(CommandLineApplication.class);
 
