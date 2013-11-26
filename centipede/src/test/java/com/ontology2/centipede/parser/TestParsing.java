@@ -81,7 +81,7 @@ public class TestParsing {
     }
 
     @Test
-    public void unparsableDefaultFailsAppropriate() throws IllegalAccessException {
+    public void unparsableDefaultFailsAppropriately() throws IllegalAccessException {
         UnparsableDefaultException blowup = null;
         try {
             invalidDefault.parse(

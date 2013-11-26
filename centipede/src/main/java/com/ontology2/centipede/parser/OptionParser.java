@@ -7,7 +7,9 @@ import java.beans.PropertyEditorManager;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import com.google.common.collect.PeekingIterator;
@@ -50,16 +52,22 @@ public class OptionParser {
             if(isSomeKindOfBoolean(o)) {
                 o.getField().setBoolean(options,false);
             }  else {
-                try {
-                    o.getField().set(options,
-                            conversionService.convert(
-                                    o.getDefaultValue()
-                                    , TypeDescriptor.valueOf(String.class)
-                                    , new TypeDescriptor(o.getField()))
-                    );
-                } catch(ConversionFailedException x) {
-                    throw new UnparsableDefaultException(o.getName(),o.getDefaultValue(),o.getType(),x);
+                Object defaultValue=null;
+                if (!o.getDefaultValue().isEmpty()) {
+                    try {
+                        defaultValue=conversionService.convert(
+                                o.getDefaultValue()
+                                , TypeDescriptor.valueOf(String.class)
+                                , new TypeDescriptor(o.getField())
+                        );
+                    } catch(ConversionFailedException x) {
+                        throw new UnparsableDefaultException(o.getName(),o.getDefaultValue(),o.getType(),x);
+                    }
+                } else {
+                    defaultValue=defaultValueFor(o.getType());
                 }
+
+                o.getField().set(options,defaultValue);
             }
         };
 
@@ -92,11 +100,72 @@ public class OptionParser {
         return options;
     }
 
+
+
     private boolean isSomeKindOfBoolean(RWOption field) {
         Type t=field.getType();
         return t.equals(Boolean.TYPE) || t.equals(Boolean.class);
     }
 
+    //
+    // These are similar to the JLS default values
+    //
+    // http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+    //
+    // with the introduction of PHP-isms such as the empty string defaulting to a String,
+    // a collection defaulting to an empty collection,  etc.
+    //
+
+    static Object defaultValueFor(Type type) {
+        if (Byte.TYPE.equals(type)) {
+            return (byte) 0;
+        };
+
+        if (Short.TYPE.equals(type)) {
+            return (short) 0;
+        }
+
+        if (Integer.TYPE.equals(type)) {
+            return (int) 0;
+        }
+
+        if (Long.TYPE.equals(type)) {
+            return 0L;
+        }
+
+        if (Float.TYPE.equals(type)) {
+            return 0.0F;
+        }
+
+        if (Double.TYPE.equals(type)) {
+            return 0.0;
+        }
+
+        if (Boolean.TYPE.equals(type)) {
+            return false;
+        }
+
+        if (Character.TYPE.equals(type)) {
+            return '\0';
+        }
+
+        if (String.class.equals(type)) {
+            return "";
+        };
+
+        if (List.class.equals(type)) {
+            return new ArrayList();
+        }
+
+        if (type instanceof ParameterizedType) {
+            ParameterizedType generic=(ParameterizedType) type;
+            if(List.class.isAssignableFrom((Class) generic.getRawType())) {
+                return new ArrayList();
+            }
+        }
+
+        return null;
+    };
 
     static Map<String, RWOption> getStringAnnotationMap(Class that) {
         Map<String, RWOption> lookup = Maps.newHashMap();

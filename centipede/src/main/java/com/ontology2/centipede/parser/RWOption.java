@@ -30,10 +30,6 @@ public class RWOption  {
         return defaultValue;
     }
 
-    public void setDefaultValue(String defaultValue) {
-        this.defaultValue = defaultValue;
-    }
-
     public String getDescription() {
         return description;
     }
