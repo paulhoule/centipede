@@ -56,6 +56,19 @@ public class TestParsing {
         );
         assertEquals(77L, (long) ioe.john);
         assertEquals(true, ioe.badass);
+        assertEquals(0,ioe.jimmy);
+    }
+
+    @Test
+    public void assignToJimmy() throws IllegalAccessException {
+        InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(
+                new ArrayList<String>() {{
+                    add("-jimmy");
+                    add("419");
+                }}
+        );
+
+        assertEquals(ioe.jimmy,419);
     }
 
 
