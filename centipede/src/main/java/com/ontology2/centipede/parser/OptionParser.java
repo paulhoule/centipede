@@ -76,7 +76,6 @@ public class OptionParser {
                 o.getField().set(options, defaultValue);
             }
         }
-        ;
 
         PeekingIterator<String> p = Iterators.peekingIterator(args.iterator());
         while (p.hasNext() && p.peek().startsWith("-")) {

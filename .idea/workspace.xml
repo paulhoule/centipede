@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/MisconfigurationException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Positional.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Substitutor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385584038885" ignored="false" />
+    <file path="/Dummy.txt" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385586222534" ignored="false" />
     <file path="/pom.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384808327558" ignored="false" />
     <file path="$PROJECT_DIR$/../internal/adserver3/.idea/workspace.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384029318558" ignored="false" />
     <file path="$PROJECT_DIR$/../infovore/pom.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384029307246" ignored="false" />
@@ -26,12 +25,12 @@
     <file path="/Version.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384809239991" ignored="false" />
     <file path="/TestVersion.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384809205385" ignored="false" />
     <file path="/Argument.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384886034423" ignored="false" />
-    <file path="/OptionParser.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385585910457" ignored="false" />
+    <file path="/OptionParser.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385588717098" ignored="false" />
     <file path="/OptionExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384889804156" ignored="false" />
     <file path="/TestAnnotationExtraction.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385585689478" ignored="false" />
-    <file path="/InheritedOptionExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385585281520" ignored="false" />
-    <file path="/Option.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385505835665" ignored="false" />
-    <file path="/RWOption.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385567963810" ignored="false" />
+    <file path="/InheritedOptionExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385587517447" ignored="false" />
+    <file path="/Option.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385586724859" ignored="false" />
+    <file path="/RWOption.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385586650974" ignored="false" />
     <file path="$PROJECT_DIR$/../infovore/bakemono/src/main/java/com/ontology2/bakemono/joins/AcceptWithMatchingKeyReducer.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385055811812" ignored="false" />
     <file path="$PROJECT_DIR$/../infovore/bakemono/src/main/java/com/ontology2/bakemono/joins/SetDifferenceReducer.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384981561534" ignored="false" />
     <file path="/SetDifferenceReducer.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384975786122" ignored="false" />
@@ -95,6 +94,8 @@
     <file path="/InvalidDefaultExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385491108517" ignored="false" />
     <file path="/Positional.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385584073810" ignored="false" />
     <file path="/MisconfigurationException.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385584889061" ignored="false" />
+    <file path="/Substitutor.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385587112577" ignored="false" />
+    <file path="/DirectoryExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385588646264" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +148,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" line="93" class="com.ontology2.centipede.parser.OptionParser" package="com.ontology2.centipede.parser">
+      <breakpoint url="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" line="92" class="com.ontology2.centipede.parser.OptionParser" package="com.ontology2.centipede.parser">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -172,19 +173,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestAnnotationExtraction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionParser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OptionParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="25" selection-start="8323" selection-end="8323" vertical-scroll-proportion="0.0">
+            <state line="64" column="44" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.67333335">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,7 +187,7 @@
       <file leaf-file-name="RWOption.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1489" selection-end="1602" vertical-scroll-proportion="0.0">
+            <state line="62" column="27" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -204,7 +196,7 @@
       <file leaf-file-name="Option.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="114" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="13" column="45" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,28 +204,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Positional.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Positional.java">
+      <file leaf-file-name="Substitutor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Substitutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="9" column="30" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OptionExample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/OptionExample.java">
+      <file leaf-file-name="DirectoryExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="20" column="29" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InheritedOptionExample.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="458" selection-end="458" vertical-scroll-proportion="0.29276693">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -248,14 +242,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestParsing.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java">
+      <file leaf-file-name="OptionExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/OptionExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="36" selection-start="5816" selection-end="5816" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#4950#4958#0" expanded="true" />
-                <element signature="e#5372#5380#0" expanded="true" />
-              </folding>
+            <state line="3" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InheritedOptionExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="33" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -278,22 +278,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CommandLineApplication.java" />
         <option value="$PROJECT_DIR$/centipede/pom.xml" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/UnparsableOptionException.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/UnparsableDefaultException.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InvalidDefaultExample.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/testContext.xml" />
-        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" />
-        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/MisconfigurationException.java" />
-        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Positional.java" />
-        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
+        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
+        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" />
+        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Substitutor.java" />
+        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java" />
+        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
+        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
       </list>
     </option>
   </component>
@@ -541,74 +541,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centipede" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="parser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -616,6 +548,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
@@ -935,7 +868,11 @@
       <created>1385584042554</created>
       <updated>1385584042554</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="resolve #7 capture positional parameters into @Positional attribute if set">
+      <created>1385586226947</created>
+      <updated>1385586226947</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -956,7 +893,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4271605" sideWeight="0.74882996" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25117004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25117004" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1006,7 +943,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve #5 it works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve #7 capture positional parameters into @Positional attribute if set" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1028,6 +965,7 @@
     <MESSAGE value="resolves #2 test out that we can initialize primitive types" />
     <MESSAGE value="progress on #5 -- logic in place for parsing lists arguments delimited by comma and tests in place for determining element type" />
     <MESSAGE value="resolve #5 it works!" />
+    <MESSAGE value="resolve #7 capture positional parameters into @Positional attribute if set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,27 +979,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/InvalidOptionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="137" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="41" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/UnparsableOptionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="138" selection-end="1080" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/UnparsableDefaultException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="44" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
@@ -1090,39 +1007,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1489" selection-end="1602" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="25" selection-start="8323" selection-end="8323" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InvalidDefaultExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/OptionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1131,15 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="114" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1153,10 +1031,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="27" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Substitutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/OptionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InvalidDefaultExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="458" selection-end="458" vertical-scroll-proportion="0.29276693">
+        <state line="12" column="33" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="44" selection-start="2845" selection-end="2845" vertical-scroll-proportion="0.67333335">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

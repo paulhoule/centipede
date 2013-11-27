@@ -7,6 +7,7 @@ import java.util.List;
 
 public class RWOption  {
     private final Field field;
+    private final Class substitutor;
     private String name;
     private String defaultValue;
     private String description;
@@ -18,6 +19,7 @@ public class RWOption  {
         this.name=o.name();
         this.defaultValue=o.defaultValue();
         this.description=o.description();
+        this.substitutor=o.substitutor();
     }
 
     public String getName() {
@@ -55,12 +57,14 @@ public class RWOption  {
     public boolean isList() {
         return type instanceof ParameterizedType
                 && List.class.isAssignableFrom(
-                    (Class) ((ParameterizedType) type).getRawType());
+                (Class) ((ParameterizedType) type).getRawType());
+    }
+    public Class getSubstitutor() {
+        return substitutor;
     }
 
     //
     // Only valid if the field is a List<?>,  something horrible is likely to happen otherwise
-    //
     //
 
     public Class getElementType() {
