@@ -1,5 +1,7 @@
 package com.ontology2.centipede.parser;
 
+import com.google.common.base.Function;
+
 import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)

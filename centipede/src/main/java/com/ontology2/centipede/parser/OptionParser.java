@@ -1,5 +1,6 @@
 package com.ontology2.centipede.parser;
 
+import com.google.common.base.Splitter;
 import com.google.common.collect.Iterators;
 import com.google.common.collect.Maps;
 
@@ -10,6 +11,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import com.google.common.collect.PeekingIterator;
@@ -82,6 +84,19 @@ public class OptionParser {
                 field.getField().setBoolean(options,true);
             } else {
                 String value=p.next();
+                if(field.isList()) {
+                    Iterable<String> parts= Splitter.on(",").split(value);
+                    Class elementType=field.getElementType();
+                    for(String part:parts) {
+                        ((List) field.getField().get(options)).add(
+                                conversionService.convert(
+                                        value
+                                        , TypeDescriptor.valueOf(String.class)
+                                        , TypeDescriptor.valueOf(elementType)
+                                )
+                        );
+                    }
+                }
                 try {
                     field.getField().set(
                             options,

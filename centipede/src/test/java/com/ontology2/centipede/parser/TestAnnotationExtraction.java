@@ -25,7 +25,7 @@ public class TestAnnotationExtraction {
     @Test
     public void inheritanceCase() {
         Map<String,RWOption> lookup=OptionParser.getStringAnnotationMap(InheritedOptionExample.class);
-        assertEquals(3,lookup.size());
+        assertEquals(4,lookup.size());
         assertTrue(lookup.containsKey("badass"));
         RWOption o1=lookup.get("badass");
         assertEquals("badass",o1.getName());
@@ -35,6 +35,9 @@ public class TestAnnotationExtraction {
         assertEquals("johnny",o2.getName());
         assertEquals("one hundred feet",o2.getDescription());
         assertEquals("1234",o2.getDefaultValue());
+        RWOption numbers=lookup.get("numbers");
+        assert(numbers.isList());
+        assertEquals(Integer.class,numbers.getElementType());
     }
 
     @Test
