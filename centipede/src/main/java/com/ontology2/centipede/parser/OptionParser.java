@@ -93,23 +93,12 @@ public class OptionParser {
                         Iterable<String> parts = Splitter.on(",").split(value);
                         Class elementType = field.getElementType();
                         for (String part : parts) {
-                            ((List) field.getField().get(options)).add(
-                                    conversionService.convert(
-                                            part
-                                            , TypeDescriptor.valueOf(String.class)
-                                            , TypeDescriptor.valueOf(elementType)
-                                    )
-                            );
+                            final Object innerValue = field.convertFrom(conversionService,part);
+                            ((List) field.getField().get(options)).add(innerValue);
                         }
                     } else {
-                        field.getField().set(
-                                options,
-                                conversionService.convert(
-                                        value
-                                        , TypeDescriptor.valueOf(String.class)
-                                        , new TypeDescriptor(field.getField())
-                                )
-                        );
+                        final Object innerValue = field.convertFrom(conversionService,value);
+                        field.getField().set(options,innerValue);
                     }
                 } catch (ConversionFailedException x) {
                     throw new UnparsableOptionException(name, value, field.getType(), x);

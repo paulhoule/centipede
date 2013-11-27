@@ -1,5 +1,8 @@
 package com.ontology2.centipede.parser;
 
+import org.springframework.core.convert.ConversionService;
+import org.springframework.core.convert.TypeDescriptor;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -71,4 +74,13 @@ public class RWOption  {
         ParameterizedType that=(ParameterizedType) type;
         return (Class) that.getActualTypeArguments()[0];
     }
+
+    public Object convertFrom(ConversionService conversionService,String value) {
+        Type toType= isList() ? getElementType() : getType();
+        return conversionService.convert(
+                value
+                , TypeDescriptor.valueOf(String.class)
+                , TypeDescriptor.valueOf((Class) toType)
+        );
+    };
 }
