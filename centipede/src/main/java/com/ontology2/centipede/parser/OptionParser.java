@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+
 import com.google.common.collect.PeekingIterator;
 import com.ontology2.centipede.shell.InvalidOptionException;
 import com.ontology2.centipede.shell.UnparsableDefaultException;
@@ -27,7 +28,8 @@ import org.springframework.core.convert.ConversionFailedException;
 
 public class OptionParser {
     private final Class that;
-    @Autowired ConversionService conversionService;
+    @Autowired
+    ConversionService conversionService;
 
     public OptionParser(Class that) {
         if (that.isAssignableFrom(HasOptions.class)) {
@@ -50,75 +52,76 @@ public class OptionParser {
             throw new IllegalArgumentException("Class " + that + " threw an exception during construction", ex);
         }
         Map<String, RWOption> lookup = getStringAnnotationMap(that);
-        for(RWOption o:lookup.values()) {
-            if(isSomeKindOfBoolean(o)) {
-                o.getField().setBoolean(options,false);
-            }  else {
-                Object defaultValue=null;
+        for (RWOption o : lookup.values()) {
+            if (isSomeKindOfBoolean(o)) {
+                o.getField().setBoolean(options, false);
+            } else {
+                Object defaultValue = null;
                 if (!o.getDefaultValue().isEmpty()) {
                     try {
-                        defaultValue=conversionService.convert(
+                        defaultValue = conversionService.convert(
                                 o.getDefaultValue()
                                 , TypeDescriptor.valueOf(String.class)
                                 , new TypeDescriptor(o.getField())
                         );
-                    } catch(ConversionFailedException x) {
-                        throw new UnparsableDefaultException(o.getName(),o.getDefaultValue(),o.getType(),x);
+                    } catch (ConversionFailedException x) {
+                        throw new UnparsableDefaultException(o.getName(), o.getDefaultValue(), o.getType(), x);
                     }
                 } else {
-                    defaultValue=defaultValueFor(o.getType());
+                    defaultValue = defaultValueFor(o.getType());
                 }
 
-                o.getField().set(options,defaultValue);
+                o.getField().set(options, defaultValue);
             }
-        };
+        }
+        ;
 
-        PeekingIterator<String> p= Iterators.peekingIterator(args.iterator());
-        while(p.hasNext() && p.peek().startsWith("-")) {
-            String name=p.next().substring(1);
-            if(!lookup.containsKey(name))
-                throw new InvalidOptionException("invalid option :"+name);
+        PeekingIterator<String> p = Iterators.peekingIterator(args.iterator());
+        while (p.hasNext() && p.peek().startsWith("-")) {
+            String name = p.next().substring(1);
+            if (!lookup.containsKey(name))
+                throw new InvalidOptionException("invalid option :" + name);
 
-            RWOption field=lookup.get(name);
-            if(isSomeKindOfBoolean(field)) {
-                field.getField().setBoolean(options,true);
+            RWOption field = lookup.get(name);
+            if (isSomeKindOfBoolean(field)) {
+                field.getField().setBoolean(options, true);
             } else {
-                String value=p.next();
-                if(field.isList()) {
-                    Iterable<String> parts= Splitter.on(",").split(value);
-                    Class elementType=field.getElementType();
-                    for(String part:parts) {
-                        ((List) field.getField().get(options)).add(
+                String value = p.next();
+                try {
+                    if (field.isList()) {
+                        Iterable<String> parts = Splitter.on(",").split(value);
+                        Class elementType = field.getElementType();
+                        for (String part : parts) {
+                            ((List) field.getField().get(options)).add(
+                                    conversionService.convert(
+                                            part
+                                            , TypeDescriptor.valueOf(String.class)
+                                            , TypeDescriptor.valueOf(elementType)
+                                    )
+                            );
+                        }
+                    } else {
+                        field.getField().set(
+                                options,
                                 conversionService.convert(
                                         value
                                         , TypeDescriptor.valueOf(String.class)
-                                        , TypeDescriptor.valueOf(elementType)
+                                        , new TypeDescriptor(field.getField())
                                 )
                         );
                     }
+                } catch (ConversionFailedException x) {
+                    throw new UnparsableOptionException(name, value, field.getType(), x);
                 }
-                try {
-                    field.getField().set(
-                            options,
-                            conversionService.convert(
-                                    value
-                                    , TypeDescriptor.valueOf(String.class)
-                                    , new TypeDescriptor(field.getField())
-                            )
-                    );
-                } catch(ConversionFailedException x) {
-                    throw new UnparsableOptionException(name,value,field.getType(),x);
-                }
-            }
 
+            }
         }
         return options;
     }
 
 
-
     private boolean isSomeKindOfBoolean(RWOption field) {
-        Type t=field.getType();
+        Type t = field.getType();
         return t.equals(Boolean.TYPE) || t.equals(Boolean.class);
     }
 
@@ -134,7 +137,8 @@ public class OptionParser {
     static Object defaultValueFor(Type type) {
         if (Byte.TYPE.equals(type)) {
             return (byte) 0;
-        };
+        }
+        ;
 
         if (Short.TYPE.equals(type)) {
             return (short) 0;
@@ -166,21 +170,24 @@ public class OptionParser {
 
         if (String.class.equals(type)) {
             return "";
-        };
+        }
+        ;
 
         if (List.class.equals(type)) {
             return new ArrayList();
         }
 
         if (type instanceof ParameterizedType) {
-            ParameterizedType generic=(ParameterizedType) type;
-            if(List.class.isAssignableFrom((Class) generic.getRawType())) {
+            ParameterizedType generic = (ParameterizedType) type;
+            if (List.class.isAssignableFrom((Class) generic.getRawType())) {
                 return new ArrayList();
             }
         }
 
         return null;
-    };
+    }
+
+    ;
 
     static Map<String, RWOption> getStringAnnotationMap(Class that) {
         Map<String, RWOption> lookup = Maps.newHashMap();

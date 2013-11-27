@@ -16,6 +16,7 @@ import javax.annotation.Resource;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"../shell/applicationContext.xml", "../testContext.xml"})
@@ -57,6 +58,7 @@ public class TestParsing {
         assertEquals(77L, (long) ioe.john);
         assertEquals(true, ioe.badass);
         assertEquals(0,ioe.jimmy);
+        assertTrue(ioe.numbers.isEmpty());
     }
 
     @Test
@@ -108,5 +110,37 @@ public class TestParsing {
         assertEquals("burn", blowup.getOptionName());
         assertEquals("i am the king of hellfire", blowup.getInvalidValue());
         assertEquals(Integer.TYPE, blowup.getTargetType());
+    }
+
+    @Test
+    public void parseNumbers() throws IllegalAccessException {
+        InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(
+                new ArrayList<String>() {{
+                    add("-numbers");
+                    add("2");
+                    add("-numbers");
+                    add("4");
+                    add("-numbers");
+                    add("6");
+                    add("-numbers");
+                    add("8");
+                }}
+        );
+
+        List<Integer> rightAnswer=Lists.newArrayList(2,4,6,8);
+        assertEquals(rightAnswer,ioe.numbers);
+    }
+
+    @Test
+    public void parseCommaSeparatedNumbers() throws IllegalAccessException {
+        InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(
+                new ArrayList<String>() {{
+                    add("-numbers");
+                    add("3,5,7,9");
+                }}
+        );
+
+        List<Integer> rightAnswer=Lists.newArrayList(3,5,7,9);
+        assertEquals(rightAnswer,ioe.numbers);
     }
 }
