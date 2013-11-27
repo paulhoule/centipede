@@ -11,4 +11,7 @@ public class InheritedOptionExample extends OptionExample implements HasOptions 
 
     @Option(description="a garden variety list")
     public List<Integer> numbers;
+
+    @Positional
+    public List<String> positional;
 }

@@ -2,6 +2,7 @@ package com.ontology2.centipede.parser;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Iterators;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
 import java.beans.PropertyEditorManager;
@@ -17,6 +18,7 @@ import java.util.Map;
 
 import com.google.common.collect.PeekingIterator;
 import com.ontology2.centipede.shell.InvalidOptionException;
+import com.ontology2.centipede.shell.MisconfigurationException;
 import com.ontology2.centipede.shell.UnparsableDefaultException;
 import com.ontology2.centipede.shell.UnparsableOptionException;
 import org.springframework.beans.BeanWrapper;
@@ -113,9 +115,14 @@ public class OptionParser {
                 } catch (ConversionFailedException x) {
                     throw new UnparsableOptionException(name, value, field.getType(), x);
                 }
-
             }
         }
+
+        List<String> positional=Lists.newArrayList(p);
+        Field positionalField=findPositionalParameter(that);
+        if(positionalField!=null)
+            positionalField.set(options,positional);
+
         return options;
     }
 
@@ -171,7 +178,6 @@ public class OptionParser {
         if (String.class.equals(type)) {
             return "";
         }
-        ;
 
         if (List.class.equals(type)) {
             return new ArrayList();
@@ -187,11 +193,13 @@ public class OptionParser {
         return null;
     }
 
-    ;
 
     static Map<String, RWOption> getStringAnnotationMap(Class that) {
         Map<String, RWOption> lookup = Maps.newHashMap();
         for (Field f : that.getFields()) {
+            if(null==f.getAnnotation(Option.class))
+                continue;
+
             RWOption o = new RWOption(f);
 
             if (o != null) {
@@ -204,5 +212,20 @@ public class OptionParser {
             }
         }
         return lookup;
+    }
+
+    static Field findPositionalParameter(Class that) {
+        for (Field f : that.getFields())
+            if(f.getAnnotation(Positional.class)!=null) {
+                if(!List.class.isAssignableFrom(f.getType()))
+                    throw new MisconfigurationException("The @Positional parameter must be a List<String>");
+
+                ParameterizedType generic=(ParameterizedType) f.getGenericType();
+                if(!String.class.equals(generic.getActualTypeArguments()[0]))
+                    throw new MisconfigurationException("The @Positional parameter must be a List<String>");
+
+                return f;
+            }
+        return null;
     }
 }

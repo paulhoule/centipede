@@ -3,11 +3,13 @@ package com.ontology2.centipede.parser;
 import org.junit.Test;
 import static com.ontology2.centipede.parser.OptionParser.defaultValueFor;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static com.ontology2.centipede.parser.OptionParser.findPositionalParameter;
 import static org.junit.Assert.*;
 
 public class TestAnnotationExtraction {
@@ -67,5 +69,11 @@ public class TestAnnotationExtraction {
 
         assertEquals(new ArrayList<Exception>(),defaultValueFor(t));
         assertEquals(new ArrayList<Long>(),defaultValueFor(t));
+    }
+
+    @Test
+    public void extractsPositional() {
+        Field f=findPositionalParameter(InheritedOptionExample.class);
+        assertEquals("positional",f.getName());
     }
 }

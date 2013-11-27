@@ -143,4 +143,36 @@ public class TestParsing {
         List<Integer> rightAnswer=Lists.newArrayList(3,5,7,9);
         assertEquals(rightAnswer,ioe.numbers);
     }
+
+    @Test
+    public void positionalWithoutOptions() throws IllegalAccessException {
+        final ArrayList<String> args = new ArrayList<String>() {{
+            add("ichi");
+            add("ni");
+            add("san");
+            add("shi");
+            add("go");
+        }};
+        InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(args);
+
+        assertEquals(args,ioe.positional);
+    }
+
+    @Test
+    public void positionalPlusOptions() throws IllegalAccessException {
+        final ArrayList<String> positional = new ArrayList<String>() {{
+            add("north");
+            add("east");
+            add("south");
+            add("west");
+        }};
+
+        List<String> args=Lists.newArrayList("-jimmy","24","-badass");
+        args.addAll(positional);
+        InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(args);
+
+        assertEquals(positional,ioe.positional);
+        assertEquals(true,ioe.badass);
+        assertEquals(24L,ioe.jimmy);
+    }
 }
