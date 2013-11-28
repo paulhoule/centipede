@@ -1,7 +1,5 @@
 package com.ontology2.centipede.parser;
 
-import com.ontology2.centipede.parser.Option;
-
 import java.io.File;
 import java.util.List;
 
@@ -18,7 +16,7 @@ public class DirectoryExample implements HasOptions {
     @Option(description="output directory")
     public String outputDir;
 
-    @Option(description="left")
+    @Option(description="left",contextualConverter=DirectoryExample.LeftSubstitutor.class)
     public List<String> left;
 
     @Option(description="right")
@@ -27,12 +25,12 @@ public class DirectoryExample implements HasOptions {
     @Option(description="output")
     public String output;
 
-    public static class LeftSubstitutor implements Substitutor<String,DirectoryExample> {
+    public static class LeftSubstitutor implements ContextualConverter<String> {
 
-        public String substitute(String value, DirectoryExample that) {
-            String defaultDir=that.leftDir;
+        public String convert(String value, HasOptions that) {
+            String defaultDir=((DirectoryExample) that).leftDir;
             if(defaultDir.isEmpty()) {
-                defaultDir=that.dir;
+                defaultDir=((DirectoryExample) that).dir;
             }
 
             if(defaultDir.isEmpty())

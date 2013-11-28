@@ -1,5 +1,6 @@
 package com.ontology2.centipede.parser;
 
+import com.ontology2.centipede.shell.MisconfigurationException;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.TypeDescriptor;
 
@@ -22,7 +23,10 @@ public class RWOption  {
         this.name=o.name();
         this.defaultValue=o.defaultValue();
         this.description=o.description();
-        this.substitutor=o.substitutor();
+        if(!Object.class.equals(o.contextualConverter())
+            &&  !ContextualConverter.class.isAssignableFrom(o.contextualConverter()))
+            throw new MisconfigurationException("A contextualConverter must be a ContextualConverter for option "+name);
+        this.substitutor=o.contextualConverter();
     }
 
     public String getName() {
@@ -62,7 +66,8 @@ public class RWOption  {
                 && List.class.isAssignableFrom(
                 (Class) ((ParameterizedType) type).getRawType());
     }
-    public Class getSubstitutor() {
+
+    public Class getContextualConverter() {
         return substitutor;
     }
 
@@ -75,12 +80,21 @@ public class RWOption  {
         return (Class) that.getActualTypeArguments()[0];
     }
 
-    public Object convertFrom(ConversionService conversionService,String value) {
-        Type toType= isList() ? getElementType() : getType();
-        return conversionService.convert(
-                value
-                , TypeDescriptor.valueOf(String.class)
-                , TypeDescriptor.valueOf((Class) toType)
-        );
+    public Object convertFrom(HasOptions context,ConversionService conversionService,String value) throws IllegalAccessException {
+        if(Object.class.equals(getContextualConverter())) {
+            Type toType= isList() ? getElementType() : getType();
+            return conversionService.convert(
+                    value
+                    , TypeDescriptor.valueOf(String.class)
+                    , TypeDescriptor.valueOf((Class) toType)
+            );
+        } else {
+            try {
+                ContextualConverter<?> cc=(ContextualConverter <?>) getContextualConverter().newInstance();
+                return cc.convert(value, context);
+            } catch(InstantiationException x) {
+                throw new MisconfigurationException("The contextual converter "+getContextualConverter()+" must have a zero argument constructor");
+            }
+        }
     };
 }

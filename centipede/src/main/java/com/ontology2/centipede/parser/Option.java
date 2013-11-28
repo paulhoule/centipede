@@ -11,5 +11,5 @@ public @interface Option {
     String name() default "";
     String defaultValue() default "";
     String description();
-    Class substitutor() default Object.class;
+    Class contextualConverter() default Object.class;
 }

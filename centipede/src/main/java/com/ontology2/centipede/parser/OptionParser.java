@@ -93,11 +93,11 @@ public class OptionParser {
                         Iterable<String> parts = Splitter.on(",").split(value);
                         Class elementType = field.getElementType();
                         for (String part : parts) {
-                            final Object innerValue = field.convertFrom(conversionService,part);
+                            final Object innerValue = field.convertFrom(options, conversionService, part);
                             ((List) field.getField().get(options)).add(innerValue);
                         }
                     } else {
-                        final Object innerValue = field.convertFrom(conversionService,value);
+                        final Object innerValue = field.convertFrom(options, conversionService, value);
                         field.getField().set(options,innerValue);
                     }
                 } catch (ConversionFailedException x) {

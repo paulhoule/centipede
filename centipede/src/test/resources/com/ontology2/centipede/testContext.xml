@@ -13,4 +13,8 @@
   <bean name="invalidDefault" class="com.ontology2.centipede.parser.OptionParser">
     <constructor-arg value="com.ontology2.centipede.parser.InvalidDefaultExample" />
   </bean>
+
+  <bean name="directoryExampleParser" class="com.ontology2.centipede.parser.OptionParser">
+    <constructor-arg value="com.ontology2.centipede.parser.DirectoryExample" />
+  </bean>
 </beans>

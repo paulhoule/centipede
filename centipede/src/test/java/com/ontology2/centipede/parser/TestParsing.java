@@ -35,7 +35,7 @@ public class TestParsing {
     }
 
     @Test
-    public void testCaseOne() throws IllegalAccessException {
+    public void testCaseOne() throws IllegalAccessException, InstantiationException {
         InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(
                 new ArrayList<String>() {{
                     add("-johnny");
@@ -47,7 +47,7 @@ public class TestParsing {
     }
 
     @Test
-    public void testCaseTwo() throws IllegalAccessException {
+    public void testCaseTwo() throws IllegalAccessException, InstantiationException {
         InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(
                 new ArrayList<String>() {{
                     add("-badass");
@@ -62,7 +62,7 @@ public class TestParsing {
     }
 
     @Test
-    public void assignToJimmy() throws IllegalAccessException {
+    public void assignToJimmy() throws IllegalAccessException, InstantiationException {
         InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(
                 new ArrayList<String>() {{
                     add("-jimmy");
