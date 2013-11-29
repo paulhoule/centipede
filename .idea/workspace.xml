@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385667094681" ignored="false" />
+    <file path="/Dummy.txt" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385746910173" ignored="false" />
     <file path="/pom.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384808327558" ignored="false" />
     <file path="$PROJECT_DIR$/../internal/adserver3/.idea/workspace.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384029318558" ignored="false" />
     <file path="$PROJECT_DIR$/../infovore/pom.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384029307246" ignored="false" />
@@ -229,10 +227,8 @@
       <file leaf-file-name="TestDirectoryExample.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="54" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.6064442">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="28" selection-start="350" selection-end="350" vertical-scroll-proportion="0.21518987">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -908,7 +904,11 @@
       <created>1385666783537</created>
       <updated>1385666783537</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="resolve #6 this is working well enough to support the immediate use cases in Infovore">
+      <created>1385746913536</created>
+      <updated>1385746913536</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -930,7 +930,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3578544" sideWeight="0.7489779" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25102207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25102207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -979,7 +979,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="#6 add code to expand right and output directories." />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve #6 this is working well enough to support the immediate use cases in Infovore" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1006,6 +1006,7 @@
     <MESSAGE value="#6 refactoring to centralize conversion so that we have a place to put the substitutor" />
     <MESSAGE value="#6 the test case works OK with the narrowest possible scope" />
     <MESSAGE value="#6 add code to expand right and output directories." />
+    <MESSAGE value="resolve #6 this is working well enough to support the immediate use cases in Infovore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1134,10 +1135,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="54" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.6064442">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="28" selection-start="350" selection-end="350" vertical-scroll-proportion="0.21518987">
+          <folding />
         </state>
       </provider>
     </entry>
