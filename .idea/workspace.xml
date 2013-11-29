@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/ContextualConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Substitutor.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/testContext.xml" afterPath="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/testContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" afterPath="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385589953307" ignored="false" />
+    <file path="/Dummy.txt" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385667094681" ignored="false" />
     <file path="/pom.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384808327558" ignored="false" />
     <file path="$PROJECT_DIR$/../internal/adserver3/.idea/workspace.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384029318558" ignored="false" />
     <file path="$PROJECT_DIR$/../infovore/pom.xml" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1384029307246" ignored="false" />
@@ -99,10 +92,10 @@
     <file path="/Positional.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385584073810" ignored="false" />
     <file path="/MisconfigurationException.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385584889061" ignored="false" />
     <file path="/Substitutor.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385587112577" ignored="false" />
-    <file path="/DirectoryExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385592905735" ignored="false" />
+    <file path="/DirectoryExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385746309356" ignored="false" />
     <file path="/ContextualConvertor.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385590668668" ignored="false" />
     <file path="/ContextualConverter.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385592844315" ignored="false" />
-    <file path="/TestDirectoryExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385666634964" ignored="false" />
+    <file path="/TestDirectoryExample.java" changelist="304c19ba-3642-4204-9066-73adc34c159b" time="1385746784897" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +209,7 @@
       <file leaf-file-name="DirectoryExample.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="42" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
+            <state line="58" column="71" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,7 +229,7 @@
       <file leaf-file-name="TestDirectoryExample.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="38" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.6816038">
+            <state line="31" column="54" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.6064442">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -292,11 +285,11 @@
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/ContextualConvertor.java" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/ContextualConverter.java" />
-        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/testContext.xml" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
+        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
       </list>
     </option>
@@ -309,10 +302,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2530" />
-    <option name="y" value="23" />
-    <option name="width" value="1479" />
-    <option name="height" value="1353" />
+    <option name="x" value="-2391" />
+    <option name="width" value="1367" />
+    <option name="height" value="1381" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -606,7 +598,7 @@
       <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDirectoryExample.substituteIntoLeft">
+  <component name="RunManager" selected="JUnit.All tests">
     <configuration default="false" name="All tests" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="centipede (1)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -832,8 +824,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDirectoryExample.substituteIntoLeft" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All tests" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All tests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestDirectoryExample.substituteIntoLeft" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.TestParsing.parseNumbers" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestParsing.shouldExplode" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestParsing.testDefaultHandling" />
@@ -912,11 +904,15 @@
       <created>1385589963537</created>
       <updated>1385589963537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="#6 the test case works OK with the narrowest possible scope">
+      <created>1385666783537</created>
+      <updated>1385666783537</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2530" y="23" width="1479" height="1353" extended-state="0" />
+    <frame x="-2391" y="0" width="1367" height="1381" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -928,13 +924,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942164" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34895396" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34096485" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494432" sideWeight="0.6496599" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956952" sideWeight="0.748954" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25104603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3578544" sideWeight="0.7489779" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25102207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -983,7 +979,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="#6 refactoring to centralize conversion so that we have a place to put the substitutor" />
+    <option name="LAST_COMMIT_MESSAGE" value="#6 add code to expand right and output directories." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1008,6 +1004,8 @@
     <MESSAGE value="resolve #7 capture positional parameters into @Positional attribute if set" />
     <MESSAGE value="#6 -- implementation of interfaces to support &quot;substitution&quot; (I'm not sure if that is a great name) and also a partial implementation of a test object based on the requirements for a &quot;rdf diff&quot; tool for infovore." />
     <MESSAGE value="#6 refactoring to centralize conversion so that we have a place to put the substitutor" />
+    <MESSAGE value="#6 the test case works OK with the narrowest possible scope" />
+    <MESSAGE value="#6 add code to expand right and output directories." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1118,15 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="17" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0">
@@ -1134,9 +1123,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="71" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.6816038">
+        <state line="31" column="54" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.6064442">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
