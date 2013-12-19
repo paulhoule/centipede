@@ -12,13 +12,17 @@ import java.util.List;
 public class RWOption  {
     private final Field field;
     private final Class substitutor;
+
+    private final boolean isRequired;
     private String name;
     private String defaultValue;
     private String description;
     private Type type;
 
     public RWOption(Field f) {
-        Option o=(Option) f.getAnnotation(Option.class);
+        Option o=f.getAnnotation(Option.class);
+        this.isRequired=(f.getAnnotation(Required.class)!=null);
+
         this.field=f;
         this.name=o.name();
         this.defaultValue=o.defaultValue();
@@ -27,6 +31,10 @@ public class RWOption  {
             &&  !ContextualConverter.class.isAssignableFrom(o.contextualConverter()))
             throw new MisconfigurationException("A contextualConverter must be a ContextualConverter for option "+name);
         this.substitutor=o.contextualConverter();
+    }
+
+    public boolean isRequired() {
+        return isRequired;
     }
 
     public String getName() {

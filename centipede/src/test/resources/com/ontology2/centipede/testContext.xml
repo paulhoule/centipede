@@ -17,4 +17,8 @@
   <bean name="directoryExampleParser" class="com.ontology2.centipede.parser.OptionParser">
     <constructor-arg value="com.ontology2.centipede.parser.DirectoryExample" />
   </bean>
+
+  <bean name="requiredOptionExampleParser" class="com.ontology2.centipede.parser.OptionParser">
+    <constructor-arg value="com.ontology2.centipede.parser.RequiredOptionExample" />
+  </bean>
 </beans>

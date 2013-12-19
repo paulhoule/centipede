@@ -11,16 +11,10 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import com.google.common.collect.PeekingIterator;
-import com.ontology2.centipede.shell.InvalidOptionException;
-import com.ontology2.centipede.shell.MisconfigurationException;
-import com.ontology2.centipede.shell.UnparsableDefaultException;
-import com.ontology2.centipede.shell.UnparsableOptionException;
+import com.ontology2.centipede.shell.*;
 import org.springframework.beans.BeanWrapper;
 import org.springframework.beans.PropertyAccessorFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -77,6 +71,7 @@ public class OptionParser {
             }
         }
 
+        Set<Field> sawOption = new HashSet<>();
         PeekingIterator<String> p = Iterators.peekingIterator(args.iterator());
         while (p.hasNext() && p.peek().startsWith("-")) {
             String name = p.next().substring(1);
@@ -84,6 +79,7 @@ public class OptionParser {
                 throw new InvalidOptionException("invalid option :" + name);
 
             RWOption field = lookup.get(name);
+            sawOption.add(field.getField());
             if (isSomeKindOfBoolean(field)) {
                 field.getField().setBoolean(options, true);
             } else {
@@ -104,6 +100,11 @@ public class OptionParser {
                     throw new UnparsableOptionException(name, value, field.getType(), x);
                 }
             }
+        }
+
+        for (RWOption o : lookup.values()) {
+            if (o.isRequired() && ! sawOption.contains(o.getField()))
+                throw new MissingOptionException("Required option -"+o.getName()+" is missing");
         }
 
         List<String> positional=Lists.newArrayList(p);
