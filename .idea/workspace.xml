@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/java/Main.java" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/java/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -165,7 +162,7 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="55" selection-start="987" selection-end="987" vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="994">
+            <state line="14" column="55" selection-start="987" selection-end="987" vertical-scroll-proportion="0.22950819" vertical-offset="0" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
@@ -258,9 +255,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1297" />
-    <option name="width" value="1272" />
-    <option name="height" value="1394" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1035,11 +1033,15 @@
       <created>1387936361619</created>
       <updated>1387936361619</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="#16 the app almost starts now,  but we need to shuffle the Spring file around&#10;">
+      <created>1387990205071</created>
+      <updated>1387990205071</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1297" y="0" width="1272" height="1394" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1049,16 +1051,16 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39756945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18104118" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17799847" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18104118" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17799847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3402778" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494432" sideWeight="0.6496599" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38853502" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1102,7 +1104,8 @@
     <MESSAGE value="bump to 99.0-SNAPSHOT because we'll be in 99.0 country once we finish up #16&#10;" />
     <MESSAGE value="for #16 I now have an archetype that &quot;works&quot; in the sense you can type maven install in the project and it doesn't fail,  but it still needs to be set up to produce an actual executable&#10;" />
     <MESSAGE value="the one-jar plugin has been added as well as the Main class,  but we still need to put in the applicationContext.xml file (for #16)" />
-    <option name="LAST_COMMIT_MESSAGE" value="the one-jar plugin has been added as well as the Main class,  but we still need to put in the applicationContext.xml file (for #16)" />
+    <MESSAGE value="#16 the app almost starts now,  but we need to shuffle the Spring file around&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#16 the app almost starts now,  but we need to shuffle the Spring file around&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1486,7 +1489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="987" selection-end="987" vertical-scroll-proportion="0.23943663" vertical-offset="0" max-vertical-offset="994">
+        <state line="14" column="55" selection-start="987" selection-end="987" vertical-scroll-proportion="0.22950819" vertical-offset="0" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
