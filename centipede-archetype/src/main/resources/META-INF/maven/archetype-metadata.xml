@@ -16,7 +16,10 @@ http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.
       <directory>src/test/java</directory>
     </fileSet>
     <fileSet filtered="true" packaged="false">
-      <directory>src/main/unpackaged-resources</directory>
+       <directory>src/main/unpackaged-resources</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true">
+      <directory>src/main/filtered</directory>
     </fileSet>
   </fileSets>
 </archetype-descriptor>
