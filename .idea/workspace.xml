@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/unpackaged-resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/pom.xml" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -917,7 +913,11 @@
       <created>1388000506848</created>
       <updated>1388000506848</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="#16 we now have log4j with suppression of Spring log messages">
+      <created>1388097044073</created>
+      <updated>1388097044073</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -986,7 +986,8 @@
     <MESSAGE value="the one-jar plugin has been added as well as the Main class,  but we still need to put in the applicationContext.xml file (for #16)" />
     <MESSAGE value="#16 the app almost starts now,  but we need to shuffle the Spring file around&#10;" />
     <MESSAGE value="#16 now the app actually boots;  we need to suppress spring errors,  add logging config,  and put in a sample app" />
-    <option name="LAST_COMMIT_MESSAGE" value="#16 now the app actually boots;  we need to suppress spring errors,  add logging config,  and put in a sample app" />
+    <MESSAGE value="#16 we now have log4j with suppression of Spring log messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="#16 we now have log4j with suppression of Spring log messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
