@@ -15,5 +15,8 @@ http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.
     <fileSet filtered="true" packaged="true">
       <directory>src/test/java</directory>
     </fileSet>
+    <fileSet filtered="true" packaged="false">
+      <directory>src/main/unpackaged-resources</directory>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>
