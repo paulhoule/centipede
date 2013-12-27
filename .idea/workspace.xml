@@ -4,8 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" />
+    <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository and it is separated by a dash not a period&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/ShowVersionNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -1370,12 +1370,16 @@
       <created>1388173052755</created>
       <updated>1388173052755</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository and it is separated by a dash not a period&#10;">
+      <created>1388173369610</created>
+      <updated>1388173369610</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="222" y="29" width="1343" height="1387" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1393,7 +1397,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27807084" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27807084" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890624" sideWeight="0.4996232" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1415,7 +1419,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="#6 -- implementation of interfaces to support &quot;substitution&quot; (I'm not sure if that is a great name) and also a partial implementation of a test object based on the requirements for a &quot;rdf diff&quot; tool for infovore." />
     <MESSAGE value="#6 refactoring to centralize conversion so that we have a place to put the substitutor" />
     <MESSAGE value="#6 the test case works OK with the narrowest possible scope" />
     <MESSAGE value="#6 add code to expand right and output directories." />
@@ -1440,7 +1443,8 @@
     <MESSAGE value="supply missing quote to fix #19&#10;" />
     <MESSAGE value="to fix #19 make sure that the one-jar gets deployed&#10;" />
     <MESSAGE value="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository&#10;" />
+    <MESSAGE value="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository and it is separated by a dash not a period&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository and it is separated by a dash not a period&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
