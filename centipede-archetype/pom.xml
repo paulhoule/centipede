@@ -3,11 +3,11 @@
   <parent>
     <artifactId>centipede-parent</artifactId>
     <groupId>com.ontology2</groupId>
-    <version>99.0</version>
+    <version>99.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>centipede-archetype</artifactId>
-  <version>99.0</version>
+  <version>99.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
   <build>
     <extensions>
