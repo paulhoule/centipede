@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -115,7 +114,7 @@
       <file leaf-file-name="path.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="81" selection-start="170" selection-end="170" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
+            <state line="3" column="176" selection-start="265" selection-end="265" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
               <folding />
             </state>
           </provider>
@@ -270,8 +269,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1053" />
-    <option name="y" value="144" />
+    <option name="x" value="273" />
+    <option name="y" value="38" />
     <option name="width" value="1343" />
     <option name="height" value="1387" />
   </component>
@@ -1356,12 +1355,16 @@
       <created>1388165316622</created>
       <updated>1388165316623</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="candidate implementation of  #19 ready to test on UNIX">
+      <created>1388171006491</created>
+      <updated>1388171006491</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1053" y="144" width="1343" height="1387" extended-state="0" />
-    <editor active="false" />
+    <frame x="273" y="38" width="1343" height="1387" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1370,7 +1373,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39756945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890624" sideWeight="0.50037676" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890624" sideWeight="0.50037676" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20601238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3390625" sideWeight="0.4996232" order="8" side_tool="false" content_ui="tabs" />
@@ -1379,7 +1382,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13865863" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27807084" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890624" sideWeight="0.4996232" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1401,7 +1404,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="resolves #2 test out that we can initialize primitive types" />
     <MESSAGE value="progress on #5 -- logic in place for parsing lists arguments delimited by comma and tests in place for determining element type" />
     <MESSAGE value="resolve #5 it works!" />
     <MESSAGE value="resolve #7 capture positional parameters into @Positional attribute if set" />
@@ -1426,7 +1428,8 @@
     <MESSAGE value="#16 version number getter and test logic all work!" />
     <MESSAGE value="#18 add the version demo app&#10;" />
     <MESSAGE value="resolve #18 add version number demo app&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve #18 add version number demo app&#10;" />
+    <MESSAGE value="candidate implementation of  #19 ready to test on UNIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="candidate implementation of  #19 ready to test on UNIX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1779,7 +1782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="81" selection-start="170" selection-end="170" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
+        <state line="3" column="176" selection-start="265" selection-end="265" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
