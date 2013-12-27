@@ -1,7 +1,9 @@
 package com.ontology2.centipede.shell;
 
 import com.ontology2.centipede.shell.CommandLineApplication;
+import org.springframework.stereotype.Component;
 
+@Component("shellTest")
 public class ShellTestApp extends CommandLineApplication {
     static boolean gotHit=false;
     static String[] lastArguments;

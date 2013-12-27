@@ -54,10 +54,7 @@ public class CentipedeShell extends CommandLineApplication {
         Map<String, CommandLineApplication> all = context.getBeansOfType(CommandLineApplication.class);
         for(Entry<String, CommandLineApplication> that:all.entrySet()) {
             String beanName=that.getKey();
-            if(beanName.endsWith("App")) {
-                String appName=beanName.substring(0, beanName.length()-3);
-                System.out.println(appName);
-            }
+            System.out.println(beanName);
         }
     }
 
@@ -67,11 +64,9 @@ public class CentipedeShell extends CommandLineApplication {
         }
 
         String application=arguments[1];
-
-        String appName=application+"App";
         CommandLineApplication app=null;
         try {
-            app = context.getBean(appName,CommandLineApplication.class);
+            app = context.getBean(application,CommandLineApplication.class);
         } catch(BeanNotOfRequiredTypeException ex) {
             die("Application ["+application+"] not found");
         } catch(NoSuchBeanDefinitionException ex) {
