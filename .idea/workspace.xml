@@ -123,7 +123,7 @@
       <file leaf-file-name="path.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="167" selection-start="256" selection-end="256" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
+            <state line="3" column="164" selection-start="253" selection-end="253" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
               <folding />
             </state>
           </provider>
@@ -1366,7 +1366,11 @@
       <created>1388172431527</created>
       <updated>1388172431527</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository&#10;">
+      <created>1388173052755</created>
+      <updated>1388173052755</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1411,7 +1415,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="resolve #7 capture positional parameters into @Positional attribute if set" />
     <MESSAGE value="#6 -- implementation of interfaces to support &quot;substitution&quot; (I'm not sure if that is a great name) and also a partial implementation of a test object based on the requirements for a &quot;rdf diff&quot; tool for infovore." />
     <MESSAGE value="#6 refactoring to centralize conversion so that we have a place to put the substitutor" />
     <MESSAGE value="#6 the test case works OK with the narrowest possible scope" />
@@ -1436,7 +1439,8 @@
     <MESSAGE value="candidate implementation of  #19 ready to test on UNIX" />
     <MESSAGE value="supply missing quote to fix #19&#10;" />
     <MESSAGE value="to fix #19 make sure that the one-jar gets deployed&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="to fix #19 make sure that the one-jar gets deployed&#10;" />
+    <MESSAGE value="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#19 fix path.sh because the name of the jar is one-jar in the target and onejar in the repository&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1789,7 +1793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="167" selection-start="256" selection-end="256" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
+        <state line="3" column="164" selection-start="253" selection-end="253" vertical-scroll-proportion="0.065891474" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
