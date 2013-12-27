@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" afterPath="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -1359,7 +1358,11 @@
       <created>1388171006491</created>
       <updated>1388171006491</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="supply missing quote to fix #19&#10;">
+      <created>1388171663829</created>
+      <updated>1388171663829</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1404,7 +1407,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="progress on #5 -- logic in place for parsing lists arguments delimited by comma and tests in place for determining element type" />
     <MESSAGE value="resolve #5 it works!" />
     <MESSAGE value="resolve #7 capture positional parameters into @Positional attribute if set" />
     <MESSAGE value="#6 -- implementation of interfaces to support &quot;substitution&quot; (I'm not sure if that is a great name) and also a partial implementation of a test object based on the requirements for a &quot;rdf diff&quot; tool for infovore." />
@@ -1429,7 +1431,8 @@
     <MESSAGE value="#18 add the version demo app&#10;" />
     <MESSAGE value="resolve #18 add version number demo app&#10;" />
     <MESSAGE value="candidate implementation of  #19 ready to test on UNIX" />
-    <option name="LAST_COMMIT_MESSAGE" value="candidate implementation of  #19 ready to test on UNIX" />
+    <MESSAGE value="supply missing quote to fix #19&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="supply missing quote to fix #19&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
