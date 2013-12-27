@@ -70,6 +70,7 @@
         <version>1.4.4</version>
         <configuration>
           <mainClass>${package}.Main</mainClass>
+          <attachToBuild>true</attachToBuild>
         </configuration>
         <executions>
           <execution>
