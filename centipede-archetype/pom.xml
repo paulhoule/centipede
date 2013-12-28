@@ -9,7 +9,44 @@
   <artifactId>centipede-archetype</artifactId>
   <version>99.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
+  <description>archetype for command line applications based on Centipede, Spring and Guava</description>
+  <url>https://github.com/paulhoule/infovore/wiki/Centipede</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>paul_houle</id>
+      <name>Paul A. Houle</name>
+      <email>paul@ontology2.com</email>
+      <url>http://blog.databaseanimals.com/</url>
+      <organization>Ontology2</organization>
+      <organizationUrl>http://ontology2.com/</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>http://en.wikipedia.org/wiki/America/New_York</timezone>
+    </developer>
+  </developers>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <build>
+    <resources>
+      <resource>
+        <filtering>true</filtering>
+        <directory>${basedir}/src/main/filtered</directory>
+      </resource>
+      <resource>
+        <filtering>false</filtering>
+        <directory>${basedir}/src/main/resources</directory>
+      </resource>
+    </resources>
     <extensions>
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
@@ -29,6 +66,14 @@
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.6</version>
+        <configuration>
+          <escapeString>\</escapeString>
         </configuration>
       </plugin>
     </plugins>

@@ -1,21 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>${groupId}</groupId>
-  <version>${version}</version>
-  <artifactId>${artifactId}</artifactId>
+  <groupId>\${groupId}</groupId>
+  <version>\${version}</version>
+  <artifactId>\${artifactId}</artifactId>
   <packaging>jar</packaging>
 
-  <name>${artifactId}</name>
+  <name>\${artifactId}</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>com.ontology2</groupId>
       <artifactId>centipede</artifactId>
-      <version>99.0-SNAPSHOT</version>
+      <version>${version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -39,20 +38,20 @@
     <resources>
       <resource>
         <filtering>true</filtering>
-        <directory>${basedir}/src/main/filtered</directory>
+        <directory>\${basedir}/src/main/filtered</directory>
       </resource>
       <resource>
         <filtering>false</filtering>
-        <directory>${basedir}/src/main/resources</directory>
+        <directory>\${basedir}/src/main/resources</directory>
       </resource>
       <resource>
         <filtering>false</filtering>
-        <directory>${basedir}/src/main/unpackaged-resources</directory>
+        <directory>\${basedir}/src/main/unpackaged-resources</directory>
       </resource>
       <resource>
         <filtering>true</filtering>
         <targetPath>..</targetPath>
-        <directory>${basedir}/src/main/scripts</directory>
+        <directory>\${basedir}/src/main/scripts</directory>
       </resource>
     </resources>
     <plugins>
@@ -69,7 +68,7 @@
         <artifactId>onejar-maven-plugin</artifactId>
         <version>1.4.4</version>
         <configuration>
-          <mainClass>${package}.Main</mainClass>
+          <mainClass>\${package}.Main</mainClass>
           <attachToBuild>true</attachToBuild>
         </configuration>
         <executions>
