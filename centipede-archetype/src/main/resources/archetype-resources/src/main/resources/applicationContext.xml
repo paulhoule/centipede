@@ -11,7 +11,7 @@
   <!-- 1.1 make system properties available -->
 
   <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-    <property name="locations" value="file:${user.home}/${artifactId}/local.properties" />
+    <property name="locations" value="file:${user.home}/.${artifactId}/local.properties" />
     <property name="ignoreResourceNotFound" value="true" />
   </bean>
 
