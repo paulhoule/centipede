@@ -95,8 +95,7 @@ public class CentipedeShell extends CommandLineApplication {
         System.out.println(getShellName()+" run <application> ...");
         System.out.println();
         System.out.println("<action> = run");
-        System.out.println("<application> the shell appends 'App' to this name and searches for a like");
-        System.out.println("named class that implements CommandLineApplication");
+        System.out.println("<application> the name of the application that you want to run");
         System.out.println();
         System.out.println("Additional parameters are passed to the application");
         System.exit(-1);
