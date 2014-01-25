@@ -4,8 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="resolve #22 -- i forgot to put the dot in the local configuration file name&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" />
+    <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__com_google_guava_guava_15_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/centipede (1).iml" afterPath="$PROJECT_DIR$/centipede/centipede (1).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/pom.xml" afterPath="$PROJECT_DIR$/centipede/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -105,7 +107,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/filtered/archetype-resources/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="135" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1547">
+            <state line="14" column="38" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -114,16 +116,7 @@
       <file leaf-file-name="Option.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="114" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CentipedeShell.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="29" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.8133971" vertical-offset="816" max-vertical-offset="1938">
+            <state line="6" column="0" selection-start="114" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -168,7 +161,16 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="7" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
+            <state line="18" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="36" selection-start="893" selection-end="893" vertical-scroll-proportion="-0.61041296" vertical-offset="663" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -177,7 +179,7 @@
       <file leaf-file-name="archetype-metadata.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="23" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="578">
+            <state line="28" column="0" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -186,7 +188,7 @@
       <file leaf-file-name="path.ps1" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+            <state line="5" column="1" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -232,7 +234,6 @@
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/util/StatusCodes.java" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/util/ExitStatus.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/util/TestExitStatus.java" />
-        <option value="$PROJECT_DIR$/centipede/pom.xml" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/Main.java" />
@@ -255,6 +256,7 @@
         <option value="$PROJECT_DIR$/centipede-archetype/pom.xml" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" />
+        <option value="$PROJECT_DIR$/centipede/pom.xml" />
       </list>
     </option>
   </component>
@@ -266,10 +268,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="754" />
-    <option name="y" value="276" />
-    <option name="width" value="1561" />
-    <option name="height" value="1101" />
+    <option name="x" value="1113" />
+    <option name="y" value="211" />
+    <option name="width" value="1389" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -298,7 +300,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,6 +369,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="centipede" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="centipede" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="centipede" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shell" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,6 +536,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -989,11 +1025,15 @@
       <created>1388445092902</created>
       <updated>1388445092902</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="resolve #25&#10;">
+      <created>1388776946392</created>
+      <updated>1388776946392</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="754" y="276" width="1561" height="1101" extended-state="0" />
+    <frame x="1113" y="211" width="1389" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1003,23 +1043,23 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39756945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3219316" sideWeight="0.50039905" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3386924" sideWeight="0.5003642" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20601238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3386924" sideWeight="0.4989075" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494432" sideWeight="0.6496599" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23883495" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4085943" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890624" sideWeight="0.49960095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3246301" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3390625" sideWeight="0.4996232" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1034,7 +1074,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="resolve #9 update spring version" />
     <MESSAGE value="#9 update spring version,  bring in IDEA files&#10;" />
     <MESSAGE value="resolve #10 -- add @Required option" />
     <MESSAGE value="resolve #11 -- add ExitStatus constants&#10;" />
@@ -1059,7 +1098,8 @@
     <MESSAGE value="resolve #20 -- powershell script to run app as command line function&#10;" />
     <MESSAGE value="resolve #21 -- automatically generate centipede version number in centipede-archetype" />
     <MESSAGE value="resolve #22 -- i forgot to put the dot in the local configuration file name" />
-    <option name="LAST_COMMIT_MESSAGE" value="resolve #22 -- i forgot to put the dot in the local configuration file name" />
+    <MESSAGE value="resolve #25&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve #25&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1173,11 +1213,6 @@
         <state line="3" column="4" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="82" selection-start="815" selection-end="926" vertical-scroll-proportion="0.3478261" vertical-offset="0" max-vertical-offset="782" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/testContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="41" selection-start="1045" selection-end="1072" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
@@ -1284,13 +1319,6 @@
         <state line="16" column="43" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="98" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="10" selection-start="2772" selection-end="2772" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1462">
@@ -1300,7 +1328,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="28" column="0" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
@@ -1314,7 +1342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/scripts/path.ps1">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="5" column="1" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
@@ -1335,21 +1363,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="112" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0" vertical-offset="770" max-vertical-offset="1547">
+        <state line="18" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/filtered/archetype-resources/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="135" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1547">
+        <state line="14" column="38" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
@@ -1363,7 +1384,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="29" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.8133971" vertical-offset="816" max-vertical-offset="1938">
+        <state line="98" column="29" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.023923445" vertical-offset="1311" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="937" selection-end="937" vertical-scroll-proportion="0.69074494" vertical-offset="0" max-vertical-offset="443">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="98" selection-start="932" selection-end="932" vertical-scroll-proportion="-1.3870968" vertical-offset="1088" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="36" selection-start="893" selection-end="893" vertical-scroll-proportion="-0.61041296" vertical-offset="663" max-vertical-offset="1547">
           <folding />
         </state>
       </provider>
