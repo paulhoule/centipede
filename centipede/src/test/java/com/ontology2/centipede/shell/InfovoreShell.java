@@ -8,8 +8,6 @@ import java.util.Set;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.SetMultimap;
-import com.google.common.reflect.ClassPath;
-import com.google.common.reflect.ClassPath.ClassInfo;
 import com.ontology2.centipede.shell.CommandLineApplication;
 import com.ontology2.centipede.shell.CentipedeShell;
 

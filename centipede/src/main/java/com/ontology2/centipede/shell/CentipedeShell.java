@@ -14,12 +14,9 @@ import org.springframework.beans.factory.BeanNotOfRequiredTypeException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.SetMultimap;
-import com.google.common.reflect.ClassPath;
-import com.google.common.reflect.ClassPath.ClassInfo;
 
 public class CentipedeShell extends CommandLineApplication {
 
@@ -99,30 +96,6 @@ public class CentipedeShell extends CommandLineApplication {
         System.out.println();
         System.out.println("Additional parameters are passed to the application");
         System.exit(-1);
-    }
-
-    private SetMultimap<String, ClassInfo> getAppClasses() throws IOException {
-        SetMultimap<String,ClassInfo> appClasses=HashMultimap.create();
-        ClassPath cp=ClassPath.from(getClass().getClassLoader());
-        for(ClassInfo i:cp.getTopLevelClasses()) {
-            String name=i.getSimpleName();
-            if(name.endsWith("App")) {
-                try {
-                    Class thatClass=i.load();
-
-                    if (CommandLineApplication.class.isAssignableFrom(thatClass)) {
-                        appClasses.put(name, i);
-                    }
-                } catch(Error ex) {
-                    //					I get errors at i.load() above when this is running in the shell wrapper
-                    //					but not in the Maven test runner;  currently it doesn't affect any of the classes
-                    //					that are really meant to run with this so I'm eating this for now
-
-                    logger.debug("trouble loading class "+name,ex);
-                }
-            }
-        }
-        return appClasses;
     }
 
 }
