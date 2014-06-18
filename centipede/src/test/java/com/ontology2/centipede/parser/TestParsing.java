@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"../shell/applicationContext.xml", "../testContext.xml"})
+@ContextConfiguration({"../shell/applicationContext.xml", "../shell/testContext.xml"})
 public class TestParsing {
     @Resource
     OptionParser exampleOne;

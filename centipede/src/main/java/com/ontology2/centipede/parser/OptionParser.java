@@ -22,10 +22,11 @@ import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.TypeDescriptor;
 import org.springframework.core.convert.ConversionFailedException;
 
+import javax.annotation.Resource;
+
 public class OptionParser {
     private final Class that;
-    @Autowired
-    ConversionService conversionService;
+    @Resource public ConversionService conversionService;
 
     public OptionParser(Class that) {
         if (that.isAssignableFrom(HasOptions.class)) {
@@ -34,7 +35,7 @@ public class OptionParser {
         this.that = that;
     }
 
-    public HasOptions parse(List<String> args) throws IllegalAccessException {
+    public HasOptions parse(Iterable<String> args) throws IllegalAccessException {
         HasOptions options;
         try {
             options = (HasOptions) that.getConstructor().newInstance();

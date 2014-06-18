@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import com.ontology2.centipede.parser.OptionParser;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
@@ -17,22 +18,46 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.SetMultimap;
+import org.springframework.core.convert.ConversionService;
 
 public class CentipedeShell extends CommandLineApplication {
 
     private static Log logger = LogFactory.getLog(CentipedeShell.class);
     public CentipedeShell() {
-        context=new ClassPathXmlApplicationContext(getApplicationContextPath().toArray(new String[] {}));
+
     }
 
     public List<String> getApplicationContextPath() {
-        return Lists.newArrayList("com/ontology2/millipede/shell/applicationContext.xml");
+        return Lists.newArrayList("com/ontology2/centipede/shell/applicationContext.xml");
+    }
+
+    private List<String> getBootstrapApplicationContextPath() {
+        return Lists.newArrayList("com/ontology2/centipede/shell/bootstrapContext.xml");
+    }
+
+    private static ApplicationContext newContext(List<String> applicationContextPath) {
+        return new ClassPathXmlApplicationContext(applicationContextPath.toArray(new String[]{}));
     }
 
     private ApplicationContext context;
     @Override
     protected void _run(String[] arguments) throws Exception {
+        ApplicationContext bootstrapContext=newContext(getBootstrapApplicationContextPath());
+        OptionParser parser=new OptionParser(CentipedeShellOptions.class);
 
+        wireupOptionParser(bootstrapContext, parser);
+        CentipedeShellOptions bootstrapOptions=(CentipedeShellOptions)
+                parser.parse(Lists.newArrayList(arguments));
+
+        List<String> contextPath=getApplicationContextPath();
+        contextPath.addAll(bootstrapOptions.applicationContext);
+        context=newContext(contextPath);
+
+        executePositionalArguments(bootstrapOptions.positional);
+    }
+
+    private void executePositionalArguments(List<String> argumentList) {
+        String[] arguments=argumentList.toArray(new String[0]);
         if(arguments.length==0) {
             usage();
         }
@@ -41,10 +66,15 @@ public class CentipedeShell extends CommandLineApplication {
         if(action.equals("run")) {
             runAction(arguments);
         } else if(action.equals("list")) {
-            listAction(arguments);			
+            listAction(arguments);
         } else {
             usage();
         }
+    }
+
+    private void wireupOptionParser(ApplicationContext bootstrapContext, OptionParser parser) {
+        parser.conversionService=(ConversionService) bootstrapContext.getBean("conversionService");
+//        bootstrapContext.getAutowireCapableBeanFactory().autowireBean(parser);
     }
 
     private void listAction(String[] arguments) {
@@ -82,7 +112,7 @@ public class CentipedeShell extends CommandLineApplication {
      * @return the name of the shell script that wraps this application
      */
     public String getShellName() {
-        return "millipede";
+        return "centipede";
     }
 
     private void usage() {

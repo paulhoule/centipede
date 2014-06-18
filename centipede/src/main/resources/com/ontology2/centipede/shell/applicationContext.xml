@@ -13,7 +13,6 @@
       expression="com.ontology2.centipede.shell.CentipedeShell" />
   </context:component-scan>
 
-  <bean id="conversionService"
-        class="org.springframework.context.support.ConversionServiceFactoryBean"/>
+  <import resource="bootstrapContext.xml" />
 </beans>
  

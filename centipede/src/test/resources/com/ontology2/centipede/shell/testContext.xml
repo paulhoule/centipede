@@ -6,6 +6,8 @@
          http://www.springframework.org/schema/context
          http://www.springframework.org/schema/context/spring-context.xsd">
 
+  <import resource="infovoreShellContext.xml" />
+
   <bean name="exampleOne" class="com.ontology2.centipede.parser.OptionParser">
     <constructor-arg value="com.ontology2.centipede.parser.InheritedOptionExample" />
   </bean>

@@ -15,7 +15,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"../shell/applicationContext.xml", "../testContext.xml"})
+@ContextConfiguration({"../shell/applicationContext.xml", "../shell/testContext.xml"})
 
 public class TestRequiredOption {
     @Resource
