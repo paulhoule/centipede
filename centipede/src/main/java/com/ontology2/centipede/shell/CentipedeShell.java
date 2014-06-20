@@ -1,6 +1,7 @@
 package com.ontology2.centipede.shell;
 import java.io.IOException;
 import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -48,12 +49,18 @@ public class CentipedeShell extends CommandLineApplication {
         wireupOptionParser(bootstrapContext, parser);
         CentipedeShellOptions bootstrapOptions=(CentipedeShellOptions)
                 parser.parse(Lists.newArrayList(arguments));
+        closeContext(bootstrapContext);
 
         List<String> contextPath=getApplicationContextPath();
         contextPath.addAll(bootstrapOptions.applicationContext);
-        context=newContext(contextPath);
 
+        context=newContext(contextPath);
         executePositionalArguments(bootstrapOptions.positional);
+        closeContext(context);
+    }
+
+    private void closeContext(ApplicationContext that) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        that.getClass().getMethod("close").invoke(that);
     }
 
     private void executePositionalArguments(List<String> argumentList) {
