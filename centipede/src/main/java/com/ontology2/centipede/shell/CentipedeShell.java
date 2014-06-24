@@ -81,7 +81,6 @@ public class CentipedeShell extends CommandLineApplication {
 
     private void wireupOptionParser(ApplicationContext bootstrapContext, OptionParser parser) {
         parser.conversionService=(ConversionService) bootstrapContext.getBean("conversionService");
-//        bootstrapContext.getAutowireCapableBeanFactory().autowireBean(parser);
     }
 
     private void listAction(String[] arguments) {
