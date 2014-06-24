@@ -12,6 +12,7 @@ public class TestInfovoreShell {
     @Before
     public void setup() {
         ShellTestApp.reset();
+        ObjectThatCountsClassInstances.reset();
     }
 
     @Test

@@ -11,6 +11,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.SetMultimap;
 import com.ontology2.centipede.shell.CommandLineApplication;
 import com.ontology2.centipede.shell.CentipedeShell;
+import org.springframework.stereotype.Component;
 
 import static com.google.common.collect.Iterables.*;
 import static com.google.common.collect.Lists.*;
@@ -36,6 +37,8 @@ public class InfovoreShell extends CentipedeShell{
 
     public static void main(String[] args) {
         new InfovoreShell().run(args);
+
+
     }
 
 

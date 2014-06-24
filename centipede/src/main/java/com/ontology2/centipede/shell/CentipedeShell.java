@@ -1,24 +1,21 @@
 package com.ontology2.centipede.shell;
-import java.io.IOException;
-import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
 
+import com.google.common.annotations.VisibleForTesting;
 import com.ontology2.centipede.parser.OptionParser;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.beans.factory.BeanNotOfRequiredTypeException;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.google.common.collect.HashMultimap;
 import com.google.common.collect.Lists;
-import com.google.common.collect.SetMultimap;
 import org.springframework.core.convert.ConversionService;
 
 public class CentipedeShell extends CommandLineApplication {
@@ -36,27 +33,60 @@ public class CentipedeShell extends CommandLineApplication {
         return Lists.newArrayList("com/ontology2/centipede/shell/bootstrapContext.xml");
     }
 
-    private static ApplicationContext newContext(List<String> applicationContextPath) {
+    @VisibleForTesting
+    static ApplicationContext newContext(List<String> applicationContextPath) {
         return new ClassPathXmlApplicationContext(applicationContextPath.toArray(new String[]{}));
+    }
+
+    @VisibleForTesting
+    static ApplicationContext newContext(List<String> applicationContextPath,boolean beLazy) {
+        if(beLazy) {
+            applicationContextPath.add("classpath:com/ontology2/centipede/shell/addLazinessAttributeToAllBeanDefinitions.xml");
+        } else {
+            applicationContextPath.add("classpath:com/ontology2/centipede/shell/addEagernessAttributeToAllBeanDefinitions.xml");
+        }
+        AbstractApplicationContext context=new ClassPathXmlApplicationContext(applicationContextPath.toArray(new String[]{}));
+        return(ApplicationContext) context;
     }
 
     private ApplicationContext context;
     @Override
     protected void _run(String[] arguments) throws Exception {
+        CentipedeShellOptions centipedeOptions = parseOptions(arguments);
+
+        List<String> contextPath=getApplicationContextPath();
+
+        context = createApplicationContext(centipedeOptions, contextPath);
+        executePositionalArguments(centipedeOptions.positional);
+        closeContext(context);
+    }
+
+    @VisibleForTesting
+     ApplicationContext createApplicationContext(CentipedeShellOptions centipedeOptions, List<String> contextPath) {
+        contextPath.addAll(centipedeOptions.applicationContext);
+
+        if(centipedeOptions.eager && centipedeOptions.lazy)
+            throw new MisconfigurationException("Cannot force eager and lazy load at same time");
+
+        Boolean forcedMode=false;
+//        Boolean forcedMode =
+//                centipedeOptions.lazy ? true :
+//                        (centipedeOptions.eager ? false : null);
+
+        forcedMode = (forcedMode==null) ? isLazyByDefault() : forcedMode;
+
+        return (forcedMode==null) ? newContext(contextPath) :
+                newContext(contextPath,forcedMode);
+    }
+
+    private CentipedeShellOptions parseOptions(String[] arguments) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         ApplicationContext bootstrapContext=newContext(getBootstrapApplicationContextPath());
         OptionParser parser=new OptionParser(CentipedeShellOptions.class);
 
         wireupOptionParser(bootstrapContext, parser);
-        CentipedeShellOptions bootstrapOptions=(CentipedeShellOptions)
-                parser.parse(Lists.newArrayList(arguments));
         closeContext(bootstrapContext);
-
-        List<String> contextPath=getApplicationContextPath();
-        contextPath.addAll(bootstrapOptions.applicationContext);
-
-        context=newContext(contextPath);
-        executePositionalArguments(bootstrapOptions.positional);
-        closeContext(context);
+        return (CentipedeShellOptions)
+                parser.parse(Lists.newArrayList(arguments));
     }
 
     private void closeContext(ApplicationContext that) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
@@ -132,6 +162,15 @@ public class CentipedeShell extends CommandLineApplication {
         System.out.println();
         System.out.println("Additional parameters are passed to the application");
         System.exit(-1);
+    }
+
+    //
+    // return true if you want to force lazy loading for everything,  false if you want to
+    // force eagerness for everything,  null if you don't override this behavior
+    //
+
+    protected Boolean isLazyByDefault() {
+        return true;
     }
 
 }
