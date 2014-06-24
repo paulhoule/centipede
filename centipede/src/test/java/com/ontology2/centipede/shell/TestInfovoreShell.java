@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
 
 public class TestInfovoreShell {
 
@@ -62,4 +63,38 @@ public class TestInfovoreShell {
         assertEquals("777-656-005",ShellTestApp.getLaunchCode());
     }
 
+    @Test
+    public void evaluationIsLazyByDefault() {
+        String[] arguments = {"-applicationContext","classpath:com/ontology2/centipede/shell/objectCountingContext.xml","run","shellTest"};
+        InfovoreShell.main(arguments);
+        assertEquals(0,ObjectThatCountsClassInstances.getCreated());
+    }
+
+    @Test
+    public void evaluationCanBeForcedEager() {
+        String[] arguments = {"-applicationContext","classpath:com/ontology2/centipede/shell/objectCountingContext.xml","-eager","run","shellTest"};
+        InfovoreShell.main(arguments);
+        assertEquals(2,ObjectThatCountsClassInstances.getCreated());
+    }
+
+    @Test
+    public void defaultEvaluationBehaviorCanBeExposed() {
+        String[] arguments = {"-applicationContext","classpath:com/ontology2/centipede/shell/objectCountingContext.xml","run","shellTest"};
+        NeitherLazyNorEagerShell.main(arguments);
+        assertEquals(1,ObjectThatCountsClassInstances.getCreated());
+    }
+
+    @Test
+    public void defaultEvaluationBehaviorCanBeForcedLazy() {
+        String[] arguments = {"-applicationContext","classpath:com/ontology2/centipede/shell/objectCountingContext.xml","-lazy","run","shellTest"};
+        NeitherLazyNorEagerShell.main(arguments);
+        assertEquals(0,ObjectThatCountsClassInstances.getCreated());
+    }
+
+    @Test
+    public void defaultEvaluationBehaviorCanBeForcedEager() {
+        String[] arguments = {"-applicationContext","classpath:com/ontology2/centipede/shell/objectCountingContext.xml","-eager","run","shellTest"};
+        NeitherLazyNorEagerShell.main(arguments);
+        assertEquals(2,ObjectThatCountsClassInstances.getCreated());
+    }
 }

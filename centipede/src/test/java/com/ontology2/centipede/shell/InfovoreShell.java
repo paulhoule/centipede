@@ -35,11 +35,7 @@ public class InfovoreShell extends CentipedeShell{
         return that;
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         new InfovoreShell().run(args);
-
-
     }
-
-
 }

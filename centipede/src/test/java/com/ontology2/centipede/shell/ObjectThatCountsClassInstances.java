@@ -25,5 +25,6 @@ public class ObjectThatCountsClassInstances {
 
     public static void reset() {
         instanceCount.set(0);
+        totalCreated.set(0);
     }
 }

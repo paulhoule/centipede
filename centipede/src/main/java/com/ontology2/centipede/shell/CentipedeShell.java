@@ -68,12 +68,9 @@ public class CentipedeShell extends CommandLineApplication {
         if(centipedeOptions.eager && centipedeOptions.lazy)
             throw new MisconfigurationException("Cannot force eager and lazy load at same time");
 
-        Boolean forcedMode=false;
-//        Boolean forcedMode =
-//                centipedeOptions.lazy ? true :
-//                        (centipedeOptions.eager ? false : null);
-
-        forcedMode = (forcedMode==null) ? isLazyByDefault() : forcedMode;
+        Boolean forcedMode =
+                centipedeOptions.lazy ? Boolean.TRUE :
+                        (centipedeOptions.eager ? Boolean.FALSE : isLazyByDefault());
 
         return (forcedMode==null) ? newContext(contextPath) :
                 newContext(contextPath,forcedMode);
