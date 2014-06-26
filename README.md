@@ -1,8 +1,6 @@
 centipede
 =========
 
-![Centipede Cartridge](https://raw.githubusercontent.com/paulhoule/images/master/Centipede_computer_game_for_Atari_8_bit_computers_1982.jpg)
-
 Command line Java applications without the pain.
 
 Java gets short shrift for writing small command line applications because the
@@ -15,4 +13,6 @@ Maven, Spring, Log4J a single step operation,  and ensuring that simple answers 
 place for the software engineering questions that are often unanswered in data science
 projects,  such as providing a place outside version control for private configuration
 parameters such as database passwords and API Keys.
+
+![Centipede Cartridge](https://raw.githubusercontent.com/paulhoule/images/master/Centipede_computer_game_for_Atari_8_bit_computers_1982.jpg)
 
