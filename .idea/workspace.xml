@@ -5,50 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/SpringSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_aop_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_beans_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_context_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_core_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_expression_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_test_4_0_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestAnnotationExtraction.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\ContextualConverter.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/ContextualConverter.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\HasOptions.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/HasOptions.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Option.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Option.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\OptionParser.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Positional.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Positional.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\RWOption.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Required.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Required.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\ExitCodeException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/ExitCodeException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\InvalidOptionException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/InvalidOptionException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\MisconfigurationException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/MisconfigurationException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\MissingOptionException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/MissingOptionException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\ShutTheProcessDown.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/ShutTheProcessDown.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\UnparsableDefaultException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/UnparsableDefaultException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\UnparsableOptionException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/UnparsableOptionException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\UsageException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/UsageException.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\resources\com\ontology2\centipede\shell\bootstrapContext.xml" afterPath="$PROJECT_DIR$/centipede-parser/src/main/resources/com/ontology2/centipede/parser/bootstrapContext.xml" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\DirectoryExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\InheritedOptionExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\InvalidDefaultExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/InvalidDefaultExample.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\OptionExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/OptionExample.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\RequiredOptionExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/RequiredOptionExample.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestDirectoryExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestParsing.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestRequiredOption.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java" />
-      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\resources\com\ontology2\centipede\shell\testContext.xml" afterPath="$PROJECT_DIR$/centipede-parser/src/test/resources/com/ontology2/centipede/parser/testContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CommandLineApplication.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CommandLineApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" afterPath="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/centipede (1).iml" afterPath="$PROJECT_DIR$/centipede/centipede (1).iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/pom.xml" afterPath="$PROJECT_DIR$/centipede/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-parser/centipede-parser.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-parser/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="centipede.iws" />
@@ -891,12 +855,16 @@
       <created>1408375803548</created>
       <updated>1408375803548</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="big changes!  We now use Spring 4.1.0 and more important,  the centipede-parser project has been spun out so we can use the GetOpt in Hadoop without introducing a guava dependency...  That is,  if we can remove the guava dependency from there!">
+      <created>1410049971708</created>
+      <updated>1410049971708</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="32" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -915,7 +883,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27244258" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27244258" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2914467" sideWeight="0.49920887" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -965,7 +933,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="#16 we now have log4j with suppression of Spring log messages&#10;" />
     <MESSAGE value="#16 now we have stuff set up so that the version.properties file will track the version of the project we're creating&#10;" />
     <MESSAGE value="#16 version number getter and test logic all work!" />
     <MESSAGE value="#18 add the version demo app&#10;" />
@@ -990,7 +957,8 @@
     <MESSAGE value="lots of progress towards master lazy/eager switch,  but still working on a test of the command line processing logic" />
     <MESSAGE value="force lazy vs eager conf switch is go after freebaseDownloader smoke test;  if that succeeds,  we launch instance 99.6;  too bad there is no more freecode to announce it at" />
     <MESSAGE value="pom file adjustments to Spring 4.0.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom file adjustments to Spring 4.0.6" />
+    <MESSAGE value="big changes!  We now use Spring 4.1.0 and more important,  the centipede-parser project has been spun out so we can use the GetOpt in Hadoop without introducing a guava dependency...  That is,  if we can remove the guava dependency from there!" />
+    <option name="LAST_COMMIT_MESSAGE" value="big changes!  We now use Spring 4.1.0 and more important,  the centipede-parser project has been spun out so we can use the GetOpt in Hadoop without introducing a guava dependency...  That is,  if we can remove the guava dependency from there!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
