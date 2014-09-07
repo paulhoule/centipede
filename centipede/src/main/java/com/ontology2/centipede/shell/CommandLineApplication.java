@@ -1,5 +1,7 @@
 package com.ontology2.centipede.shell;
 
+import com.ontology2.centipede.errors.ExitCodeException;
+import com.ontology2.centipede.errors.ShutTheProcessDown;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -9,7 +11,7 @@ public abstract class CommandLineApplication {
     public void run(String[] arguments) {
         try {
             _run(arguments);
-        } catch (ExitCodeException e) { 
+        } catch (ExitCodeException e) {
             logger.error("process failed with exit code"+e.getStatus(),e);
             System.exit(e.getStatus());
         } catch(ShutTheProcessDown e) {

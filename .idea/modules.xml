@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/centipede.iml" filepath="$PROJECT_DIR$/centipede.iml" />
       <module fileurl="file://$PROJECT_DIR$/centipede/centipede (1).iml" filepath="$PROJECT_DIR$/centipede/centipede (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/centipede-archetype/centipede-archetype.iml" filepath="$PROJECT_DIR$/centipede-archetype/centipede-archetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/centipede-parser/centipede-parser.iml" filepath="$PROJECT_DIR$/centipede-parser/centipede-parser.iml" />
     </modules>
   </component>
 </project>

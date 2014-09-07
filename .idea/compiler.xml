@@ -27,6 +27,7 @@
         <processorPath useClasspath="true" />
         <module name="centipede (1)" />
         <module name="centipede-archetype" />
+        <module name="centipede-parser" />
         <module name="centipede-test" />
         <module name="centipedeTest" />
       </profile>
@@ -35,6 +36,7 @@
       <module name="centipede" target="1.7" />
       <module name="centipede (1)" target="1.7" />
       <module name="centipede-archetype" target="1.7" />
+      <module name="centipede-parser" target="1.7" />
       <module name="centipedeTest" target="1.7" />
     </bytecodeTargetLevel>
   </component>

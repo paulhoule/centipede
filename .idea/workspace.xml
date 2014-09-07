@@ -1,23 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/OptionParser.java" line="22" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="304c19ba-3642-4204-9066-73adc34c159b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_6_RELEASE.xml" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_test_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/SpringSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_aop_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_beans_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_context_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_core_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_expression_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\.idea\libraries\Maven__org_springframework_spring_test_4_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestAnnotationExtraction.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\ContextualConverter.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/ContextualConverter.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\HasOptions.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/HasOptions.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Option.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Option.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\OptionParser.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Positional.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Positional.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\RWOption.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser\Required.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Required.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\ExitCodeException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/ExitCodeException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\InvalidOptionException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/InvalidOptionException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\MisconfigurationException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/MisconfigurationException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\MissingOptionException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/MissingOptionException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\ShutTheProcessDown.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/ShutTheProcessDown.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\UnparsableDefaultException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/UnparsableDefaultException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\UnparsableOptionException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/UnparsableOptionException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\shell\UsageException.java" afterPath="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/errors/UsageException.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\resources\com\ontology2\centipede\shell\bootstrapContext.xml" afterPath="$PROJECT_DIR$/centipede-parser/src/main/resources/com/ontology2/centipede/parser/bootstrapContext.xml" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\DirectoryExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\InheritedOptionExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\InvalidDefaultExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/InvalidDefaultExample.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\OptionExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/OptionExample.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\RequiredOptionExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/RequiredOptionExample.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestDirectoryExample.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestParsing.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\java\com\ontology2\centipede\parser\TestRequiredOption.java" afterPath="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java" />
+      <change type="MOVED" beforePath="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\resources\com\ontology2\centipede\shell\testContext.xml" afterPath="$PROJECT_DIR$/centipede-parser/src/test/resources/com/ontology2/centipede/parser/testContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CommandLineApplication.java" afterPath="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CommandLineApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" afterPath="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/centipede (1).iml" afterPath="$PROJECT_DIR$/centipede/centipede (1).iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/centipede/pom.xml" afterPath="$PROJECT_DIR$/centipede/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -86,59 +115,23 @@
       <file leaf-file-name="CentipedeShell.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2856" max-vertical-offset="3043">
-              <caret line="168" column="39" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="39" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2958">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjectThatCountsClassInstances.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/ObjectThatCountsClassInstances.java">
+      <file leaf-file-name="TestDirectoryExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="612">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandLineApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CommandLineApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="595">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddLazinessAttributeToAllBeanDefinitions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/AddLazinessAttributeToAllBeanDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="objectCountingContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/shell/objectCountingContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
-              <caret line="9" column="126" selection-start-line="9" selection-start-column="126" selection-end-line="9" selection-end-column="126" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfovoreShell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/InfovoreShell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="799">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1411">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,38 +139,82 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1836">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.7841845" vertical-offset="595" max-vertical-offset="2125">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
+      <file leaf-file-name="TestParsing.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestParsing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1768">
-              <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede-archetype/pom.xml">
+      <file leaf-file-name="TestRequiredOption.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1462">
-              <caret line="30" column="81" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeitherLazyNorEagerShell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/NeitherLazyNorEagerShell.java">
+      <file leaf-file-name="testContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/resources/com/ontology2/centipede/parser/testContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="25" column="101" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/SpringSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestInfovoreShell.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/TestInfovoreShell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+              <caret line="13" column="73" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectoryExample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -201,16 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/unpacked-resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/filtered/version.properties" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/java/Version.java" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/test/VersionTest.java" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/test/java/VersionTest.java" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/Version.java" />
-        <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/ShowVersionNumber.java" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/unpackaged-resources/log4j.properties" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/pom.xml" />
@@ -221,10 +248,8 @@
         <option value="$PROJECT_DIR$/centipede-archetype/src/main/filtered/archetype-resources/pom.xml" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/ShellTestApp.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/infovoreShellContext.xml" />
-        <option value="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" />
         <option value="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/testContext.xml" />
         <option value="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/shell/testContext.xml" />
-        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/shell/infovoreShellOverrideContext.xml" />
@@ -248,10 +273,22 @@
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/InfovoreShell.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/NeitherLazyNorEagerShell.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/ObjectThatCountsClassInstances.java" />
-        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" />
         <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/TestInfovoreShell.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/centipede-parser/pom.xml" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/RWOption.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/OptionParser.java" />
         <option value="$PROJECT_DIR$/centipede/pom.xml" />
+        <option value="$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/main/java/parser/DirectoryExample.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/test/resources/com/ontology2/centipede/parser/testContext.xml" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/SpringSource.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestParsing.java" />
+        <option value="$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java" />
+        <option value="$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -263,8 +300,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-466" />
-    <option name="y" value="267" />
+    <option name="x" value="12" />
+    <option name="y" value="32" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
@@ -279,7 +316,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -295,7 +332,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,8 +340,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="centipede" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="centipede" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,14 +379,16 @@
       <recent name="com.ontology2.centipede.shell" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ontology2.centipede.parser" />
+      <recent name="com.ontology2.centipede" />
       <recent name="com.ontology2.centipede.shell" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede-parser\src\main\resources\com\ontology2\centipede\parser" />
+      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede-parser\src\test\resources\com\ontology2\centipede\parser" />
+      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede-parser\src\test\resources\com\ontology2\centipede" />
+      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\main\java\com\ontology2\centipede\parser" />
       <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\resources\com\ontology2\centipede\shell" />
-      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede\src\test\resources" />
-      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede-archetype\src\main\filtered\archetype-resources" />
-      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede-archetype\src\main\resources\archetype-resources\src\test\java" />
-      <recent name="C:\Users\paul_000\Documents\GitHub\centipede\centipede-archetype\src\main\resources\archetype-resources\src\main\unpackaged-resources" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Run All Tests">
@@ -362,34 +411,6 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestInfovoreShell.alternateLaunchCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="centipede (1)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.ontology2.centipede.shell" />
-      <option name="MAIN_CLASS_NAME" value="com.ontology2.centipede.shell.TestInfovoreShell" />
-      <option name="METHOD_NAME" value="alternateLaunchCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -462,6 +483,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestDirectoryExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="centipede-parser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.ontology2.centipede.parser" />
+      <option name="MAIN_CLASS_NAME" value="com.ontology2.centipede.parser.TestDirectoryExample" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -619,18 +662,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Run All Tests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.alternateLaunchCode" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.evaluationIsLazyByDefault" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.defaultEvaluationBehaviorCanBeExposed" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.evaluationIsLazyByDefault" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.defaultEvaluationBehaviorCanBeExposed" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestDirectoryExample" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.defaultEvaluationBehaviorCanBeExposed" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.evaluationIsLazyByDefault" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.alternateLaunchCode" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestDirectoryExample" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.defaultEvaluationBehaviorCanBeExposed" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.evaluationIsLazyByDefault" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestInfovoreShell.test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -844,35 +887,39 @@
       <created>1403645682941</created>
       <updated>1403645682941</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="pom file adjustments to Spring 4.0.6">
+      <created>1408375803548</created>
+      <updated>1408375803548</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-466" y="267" width="1932" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="12" y="32" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32312566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3963964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19391635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15453863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34213305" sideWeight="0.49841774" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494432" sideWeight="0.6496599" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27139875" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2914467" sideWeight="0.49920887" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27244258" sideWeight="0.62846583" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2914467" sideWeight="0.49920887" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32370517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34213305" sideWeight="0.49841774" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -918,7 +965,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="#16 we now have log4j with suppression of Spring log messages" />
     <MESSAGE value="#16 we now have log4j with suppression of Spring log messages&#10;" />
     <MESSAGE value="#16 now we have stuff set up so that the version.properties file will track the version of the project we're creating&#10;" />
     <MESSAGE value="#16 version number getter and test logic all work!" />
@@ -943,7 +989,8 @@
     <MESSAGE value="clean out commented code" />
     <MESSAGE value="lots of progress towards master lazy/eager switch,  but still working on a test of the command line processing logic" />
     <MESSAGE value="force lazy vs eager conf switch is go after freebaseDownloader smoke test;  if that succeeds,  we launch instance 99.6;  too bad there is no more freecode to announce it at" />
-    <option name="LAST_COMMIT_MESSAGE" value="force lazy vs eager conf switch is go after freebaseDownloader smoke test;  if that succeeds,  we launch instance 99.6;  too bad there is no more freecode to announce it at" />
+    <MESSAGE value="pom file adjustments to Spring 4.0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom file adjustments to Spring 4.0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -956,13 +1003,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java</url>
-          <line>45</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java</url>
-          <line>70</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -978,27 +1025,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/InheritedOptionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="12" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/test/java/VersionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="16" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="15" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/src/main/resources/archetype-resources/src/main/unpackaged-resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -1069,31 +1095,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/HasOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="4" column="78" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/Positional.java">
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Positional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1111,60 +1116,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestParsing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="3111">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/RWOption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.25" vertical-offset="868" max-vertical-offset="1479">
-          <caret line="90" column="66" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/parser/OptionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3485">
-          <caret line="31" column="78" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/bootstrapContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="7" column="102" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -1179,13 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/shell/testContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1227,20 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/shell/infovoreShellContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31114808" vertical-offset="0" max-vertical-offset="601">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4808652" vertical-offset="0" max-vertical-offset="601">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/ShellTestApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="646">
@@ -1259,21 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/TestInfovoreShell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="997" max-vertical-offset="1700">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2652">
-          <caret line="168" column="39" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,14 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1768">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centipede-archetype/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1462">
@@ -1341,10 +1252,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/ContextualConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/HasOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/Option.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/RWOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/java/com/ontology2/centipede/parser/OptionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3774">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.75" vertical-offset="471" max-vertical-offset="1343">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestAnnotationExtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="8" column="88" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/test/resources/com/ontology2/centipede/shell/infovoreShellContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/main/resources/com/ontology2/centipede/parser/bootstrapContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/resources/com/ontology2/centipede/parser/testContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="25" column="101" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/DirectoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestDirectoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1411">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/SpringSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestParsing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede-parser/src/test/java/com/ontology2/centipede/parser/TestRequiredOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/resources/com/ontology2/centipede/shell/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/test/java/com/ontology2/centipede/shell/TestInfovoreShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/centipede/src/main/java/com/ontology2/centipede/shell/CentipedeShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="2958">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1836">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.7841845" vertical-offset="595" max-vertical-offset="2125">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import com.google.common.annotations.VisibleForTesting;
+import com.ontology2.centipede.errors.MisconfigurationException;
 import com.ontology2.centipede.parser.OptionParser;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -30,7 +31,7 @@ public class CentipedeShell extends CommandLineApplication {
     }
 
     private List<String> getBootstrapApplicationContextPath() {
-        return Lists.newArrayList("com/ontology2/centipede/shell/bootstrapContext.xml");
+        return Lists.newArrayList("com/ontology2/centipede/parser/bootstrapContext.xml");
     }
 
     @VisibleForTesting

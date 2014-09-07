@@ -13,6 +13,6 @@
       expression="com.ontology2.centipede.shell.CentipedeShell" />
   </context:component-scan>
 
-  <import resource="bootstrapContext.xml" />
+  <import resource="../parser/bootstrapContext.xml" />
 </beans>
  

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd">
+  <import resource="bootstrapContext.xml"/>
+
+  <context:component-scan base-package="com.ontology2.centipede.parser"/>
+
+  <bean name="launchCode" class="java.lang.String">
+    <constructor-arg value="000-000-000" />
+  </bean>
+
+  <bean name="exampleOne" class="com.ontology2.centipede.parser.OptionParser">
+    <constructor-arg value="com.ontology2.centipede.parser.InheritedOptionExample" />
+  </bean>
+
+  <bean name="invalidDefault" class="com.ontology2.centipede.parser.OptionParser">
+    <constructor-arg value="com.ontology2.centipede.parser.InvalidDefaultExample" />
+  </bean>
+
+  <bean name="directoryExampleParser" class="com.ontology2.centipede.parser.OptionParser">
+    <constructor-arg value="com.ontology2.centipede.parser.DirectoryExample" />
+  </bean>
+
+  <bean name="requiredOptionExampleParser" class="com.ontology2.centipede.parser.OptionParser">
+    <constructor-arg value="com.ontology2.centipede.parser.RequiredOptionExample" />
+  </bean>
+</beans>
