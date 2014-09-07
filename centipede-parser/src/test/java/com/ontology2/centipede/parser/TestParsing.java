@@ -11,6 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+import static com.google.common.collect.Lists.*;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
@@ -123,7 +124,7 @@ public class TestParsing extends SpringSource {
                 }}
         );
 
-        List<Integer> rightAnswer=Lists.newArrayList(2,4,6,8);
+        List<Integer> rightAnswer= newArrayList(2, 4, 6, 8);
         assertEquals(rightAnswer,ioe.numbers);
     }
 
@@ -136,7 +137,7 @@ public class TestParsing extends SpringSource {
                 }}
         );
 
-        List<Integer> rightAnswer=Lists.newArrayList(3,5,7,9);
+        List<Integer> rightAnswer= newArrayList(3, 5, 7, 9);
         assertEquals(rightAnswer,ioe.numbers);
     }
 
@@ -163,7 +164,7 @@ public class TestParsing extends SpringSource {
             add("west");
         }};
 
-        List<String> args=Lists.newArrayList("-jimmy","24","-badass");
+        List<String> args= newArrayList("-jimmy", "24", "-badass");
         args.addAll(positional);
         InheritedOptionExample ioe = (InheritedOptionExample) exampleOne.parse(args);
 

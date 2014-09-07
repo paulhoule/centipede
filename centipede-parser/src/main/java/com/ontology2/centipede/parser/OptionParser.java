@@ -1,9 +1,5 @@
 package com.ontology2.centipede.parser;
 
-import com.google.common.base.Splitter;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -11,7 +7,6 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.*;
 
-import com.google.common.collect.PeekingIterator;
 import com.ontology2.centipede.errors.*;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.TypeDescriptor;
@@ -68,9 +63,14 @@ public class OptionParser {
         }
 
         Set<Field> sawOption = new HashSet<>();
-        PeekingIterator<String> p = Iterators.peekingIterator(args.iterator());
-        while (p.hasNext() && p.peek().startsWith("-")) {
-            String name = p.next().substring(1);
+        Iterator<String> p = args.iterator();
+        String peek=null;
+        while (p.hasNext()) {
+            peek = p.next();
+            if(!peek.startsWith("-"))
+                break;
+
+            String name = peek.substring(1);
             if (!lookup.containsKey(name))
                 throw new InvalidOptionException("invalid option :" + name);
 
@@ -82,7 +82,7 @@ public class OptionParser {
                 String value = p.next();
                 try {
                     if (field.isList()) {
-                        Iterable<String> parts = Splitter.on(",").split(value);
+                        String[] parts = value.split(",");
                         Class elementType = field.getElementType();
                         for (String part : parts) {
                             final Object innerValue = field.convertFrom(options, conversionService, part);
@@ -96,6 +96,8 @@ public class OptionParser {
                     throw new UnparsableOptionException(name, value, field.getType(), x);
                 }
             }
+
+            peek=null;
         }
 
         for (RWOption o : lookup.values()) {
@@ -103,7 +105,13 @@ public class OptionParser {
                 throw new MissingOptionException("Required option -"+o.getName()+" is missing");
         }
 
-        List<String> positional=Lists.newArrayList(p);
+        List<String> positional=new ArrayList<String>();
+        if(peek!=null)
+            positional.add(peek);
+
+        while(p.hasNext())
+            positional.add(p.next());
+
         Field positionalField=findPositionalParameter(that);
         if(positionalField!=null)
             positionalField.set(options,positional);
@@ -180,7 +188,7 @@ public class OptionParser {
 
 
     static Map<String, RWOption> getStringAnnotationMap(Class that) {
-        Map<String, RWOption> lookup = Maps.newHashMap();
+        Map<String, RWOption> lookup = new HashMap<String,RWOption>();
         for (Field f : that.getFields()) {
             if(null==f.getAnnotation(Option.class))
                 continue;
