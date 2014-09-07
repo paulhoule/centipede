@@ -5,7 +5,7 @@ import com.ontology2.centipede.errors.ShutTheProcessDown;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-public abstract class CommandLineApplication {
+public abstract class CommandLineApplication extends ResourceAwareObject {
     private static Log logger = LogFactory.getLog(CommandLineApplication.class);
 
     public void run(String[] arguments) {
