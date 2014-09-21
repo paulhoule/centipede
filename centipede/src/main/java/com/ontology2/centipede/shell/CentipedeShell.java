@@ -35,22 +35,21 @@ public class CentipedeShell extends CommandLineApplication {
     }
 
     @VisibleForTesting
-    static ApplicationContext newContext(List<String> applicationContextPath) {
+    static AbstractApplicationContext newContext(List<String> applicationContextPath) {
         return new ClassPathXmlApplicationContext(applicationContextPath.toArray(new String[]{}));
     }
 
     @VisibleForTesting
-    static ApplicationContext newContext(List<String> applicationContextPath,boolean beLazy) {
+    static AbstractApplicationContext newContext(List<String> applicationContextPath,boolean beLazy) {
         if(beLazy) {
             applicationContextPath.add("classpath:com/ontology2/centipede/shell/addLazinessAttributeToAllBeanDefinitions.xml");
         } else {
             applicationContextPath.add("classpath:com/ontology2/centipede/shell/addEagernessAttributeToAllBeanDefinitions.xml");
         }
-        AbstractApplicationContext context=new ClassPathXmlApplicationContext(applicationContextPath.toArray(new String[]{}));
-        return(ApplicationContext) context;
+        return new ClassPathXmlApplicationContext(applicationContextPath.toArray(new String[]{}));
     }
 
-    private ApplicationContext context;
+    private AbstractApplicationContext context;
     @Override
     protected void _run(String[] arguments) throws Exception {
         CentipedeShellOptions centipedeOptions = parseOptions(arguments);
@@ -58,12 +57,14 @@ public class CentipedeShell extends CommandLineApplication {
         List<String> contextPath=getApplicationContextPath();
 
         context = createApplicationContext(centipedeOptions, contextPath);
+        context.registerShutdownHook();
         executePositionalArguments(centipedeOptions.positional);
         closeContext(context);
     }
 
     @VisibleForTesting
-     ApplicationContext createApplicationContext(CentipedeShellOptions centipedeOptions, List<String> contextPath) {
+     AbstractApplicationContext createApplicationContext(CentipedeShellOptions centipedeOptions, List<String> contextPath) {
+        contextPath.addAll(centipedeOptions.applicationContext);
         contextPath.addAll(centipedeOptions.applicationContext);
 
         if(centipedeOptions.eager && centipedeOptions.lazy)
