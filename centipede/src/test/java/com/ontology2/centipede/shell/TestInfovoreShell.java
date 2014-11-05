@@ -56,6 +56,14 @@ public class TestInfovoreShell {
     }
 
     @Test
+    public void iCanEvenLeaveOutTheRun() throws IOException {
+        String[] arguments = {"shellTest"};
+        InfovoreShell.main(arguments);
+        assertTrue(ShellTestApp.getGotHit());
+        assertEquals("000-000-000",ShellTestApp.getLaunchCode());
+    }
+
+    @Test
     public void alternateLaunchCode() throws IOException {
         String[] arguments = {"-applicationContext","classpath:com/ontology2/centipede/shell/infovoreShellOverrideContext.xml","run","shellTest"};
         InfovoreShell.main(arguments);

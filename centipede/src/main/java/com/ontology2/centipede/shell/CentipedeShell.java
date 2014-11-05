@@ -19,6 +19,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.google.common.collect.Lists;
 import org.springframework.core.convert.ConversionService;
 
+import static com.google.common.collect.Lists.newArrayList;
+
 public class CentipedeShell extends CommandLineApplication {
 
     private static Log logger = LogFactory.getLog(CentipedeShell.class);
@@ -27,11 +29,11 @@ public class CentipedeShell extends CommandLineApplication {
     }
 
     public List<String> getApplicationContextPath() {
-        return Lists.newArrayList("com/ontology2/centipede/shell/applicationContext.xml");
+        return newArrayList("com/ontology2/centipede/shell/applicationContext.xml");
     }
 
     private List<String> getBootstrapApplicationContextPath() {
-        return Lists.newArrayList("com/ontology2/centipede/parser/bootstrapContext.xml");
+        return newArrayList("com/ontology2/centipede/parser/bootstrapContext.xml");
     }
 
     @VisibleForTesting
@@ -85,7 +87,7 @@ public class CentipedeShell extends CommandLineApplication {
         wireupOptionParser(bootstrapContext, parser);
         closeContext(bootstrapContext);
         return (CentipedeShellOptions)
-                parser.parse(Lists.newArrayList(arguments));
+                parser.parse(newArrayList(arguments));
     }
 
     private void closeContext(ApplicationContext that) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
@@ -104,7 +106,12 @@ public class CentipedeShell extends CommandLineApplication {
         } else if(action.equals("list")) {
             listAction(arguments);
         } else {
-            usage();
+            List<String> amendedArguments=newArrayList();
+            amendedArguments.add("run*");
+            for(String argument:arguments) {
+                amendedArguments.add(argument);
+            }
+            runAction(amendedArguments.toArray(new String[0]));
         }
     }
 
