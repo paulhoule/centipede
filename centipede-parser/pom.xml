@@ -4,10 +4,10 @@
   <parent>
     <groupId>com.ontology2</groupId>
     <artifactId>centipede-parent</artifactId>
-    <version>99.9</version>
+    <version>99.10-SNAPSHOT</version>
   </parent>
   <artifactId>centipede-parser</artifactId>
-  <version>99.9</version>
+  <version>99.10-SNAPSHOT</version>
   <name>centipede-parser</name>
   <url>http://maven.apache.org</url>
   <properties>
