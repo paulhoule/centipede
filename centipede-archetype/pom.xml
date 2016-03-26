@@ -22,7 +22,7 @@
     <developer>
       <id>paul_houle</id>
       <name>Paul A. Houle</name>
-      <email>paul@ontology2.com</email>
+      <email>ontology2@gmail.com</email>
       <url>http://blog.databaseanimals.com/</url>
       <organization>Ontology2</organization>
       <organizationUrl>http://ontology2.com/</organizationUrl>
@@ -63,7 +63,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>2.6</version>
+        <version>2.7</version>
         <configuration>
           <escapeString>\</escapeString>
         </configuration>
