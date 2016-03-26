@@ -33,12 +33,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="centipede" target="1.7" />
-      <module name="centipede (1)" target="1.7" />
-      <module name="centipede-archetype" target="1.7" />
-      <module name="centipede-parser" target="1.7" />
+      <module name="centipede" target="1.8" />
+      <module name="centipede (1)" target="1.8" />
+      <module name="centipede-archetype" target="1.8" />
+      <module name="centipede-parser" target="1.8" />
       <module name="centipedeTest" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
-

@@ -4,10 +4,10 @@
   <parent>
     <groupId>com.ontology2</groupId>
     <artifactId>centipede-parent</artifactId>
-    <version>99.10-SNAPSHOT</version>
+    <version>100.0-SNAPSHOT</version>
   </parent>
   <artifactId>centipede-parser</artifactId>
-  <version>99.10-SNAPSHOT</version>
+  <version>100.0-SNAPSHOT</version>
   <name>centipede-parser</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -30,7 +30,7 @@
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
-      <version>2.0.2</version>
+      <version>3.0.1</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
