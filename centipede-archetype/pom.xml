@@ -3,11 +3,11 @@
   <parent>
     <artifactId>centipede-parent</artifactId>
     <groupId>com.ontology2</groupId>
-    <version>100.1</version>
+    <version>100.2-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>centipede-archetype</artifactId>
-  <version>100.1</version>
+  <version>100.2-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
   <description>archetype for command line applications based on Centipede, Spring and Guava</description>
   <url>https://github.com/paulhoule/infovore/wiki/Centipede</url>
