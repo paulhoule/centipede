@@ -52,7 +52,7 @@
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>19.0</version>
+        <version>20.0</version>
       </dependency>
       <dependency>
         <groupId>commons-logging</groupId>
@@ -79,7 +79,7 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-framework-bom</artifactId>
-        <version>4.3.0.RELEASE</version>
+        <version>4.3.4.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
