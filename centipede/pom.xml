@@ -2,14 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ontology2</groupId>
   <artifactId>centipede</artifactId>
-  <version>100.1-SNAPSHOT</version>
+  <version>100.3-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Centipede -- utilities for developing command line applications in Java</name>
   <url>https://github.com/paulhoule/infovore/wiki/Centipede</url>
   <parent>
     <groupId>com.ontology2</groupId>
     <artifactId>centipede-parent</artifactId>
-    <version>100.1-SNAPSHOT</version>
+    <version>100.3-SNAPSHOT</version>
   </parent>
   <licenses>
     <license>
@@ -49,7 +49,7 @@
     <dependency>
       <groupId>com.ontology2</groupId>
       <artifactId>centipede-parser</artifactId>
-      <version>100.1-SNAPSHOT</version>
+      <version>100.3-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
